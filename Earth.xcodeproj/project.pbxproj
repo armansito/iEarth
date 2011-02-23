@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* EarthAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* EarthAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2514C27B10084DCA00A42282 /* Earth.frag in Resources */ = {isa = PBXBuildFile; fileRef = 2514C27910084DCA00A42282 /* Earth.frag */; };
+		2514C27C10084DCA00A42282 /* Earth.vert in Resources */ = {isa = PBXBuildFile; fileRef = 2514C27A10084DCA00A42282 /* Earth.vert */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28EC4C5911D54ECE0027AA9F /* EarthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EC4C5711D54ECE0027AA9F /* EarthViewController.m */; };
+		28EC4C5A11D54ECE0027AA9F /* EarthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28EC4C5811D54ECE0027AA9F /* EarthViewController.xib */; };
+		28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */; };
+		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		BA1FF2DD131333B200FE656A /* EarthRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */; };
+		BA1FF64D13149BCD00FE656A /* CS123Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA1FF64813149BCC00FE656A /* CS123Matrix.cpp */; };
+		BA1FF64E13149BCD00FE656A /* CS123Matrix.inl in Resources */ = {isa = PBXBuildFile; fileRef = BA1FF64A13149BCC00FE656A /* CS123Matrix.inl */; };
+		BA1FF64F13149BCD00FE656A /* CS123Vector.inl in Resources */ = {isa = PBXBuildFile; fileRef = BA1FF64C13149BCD00FE656A /* CS123Vector.inl */; };
+		BA1FF65213149BE800FE656A /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA1FF65113149BE800FE656A /* Camera.cpp */; };
+		BA1FF74B1314C17B00FE656A /* OrbitingCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA1FF74A1314C17B00FE656A /* OrbitingCamera.cpp */; };
+		BA1FF83F1314D5D400FE656A /* Clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FF83C1314D5D400FE656A /* Clouds.jpg */; };
+		BA1FF8401314D5D400FE656A /* Day.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FF83D1314D5D400FE656A /* Day.jpg */; };
+		BA1FF8411314D5D400FE656A /* Night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FF83E1314D5D400FE656A /* Night.jpg */; };
+		BA1FF8731314DA2D00FE656A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1FF8721314DA2D00FE656A /* CoreGraphics.framework */; };
+		BA1FF9C613156D5100FE656A /* GLESFileLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1FF9C513156D5100FE656A /* GLESFileLoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* EarthAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* EarthAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2514C27910084DCA00A42282 /* Earth.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Earth.frag; path = Shaders/Earth.frag; sourceTree = "<group>"; };
+		2514C27A10084DCA00A42282 /* Earth.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Earth.vert; path = Shaders/Earth.vert; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28EC4C5611D54ECE0027AA9F /* EarthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthViewController.h; sourceTree = "<group>"; };
+		28EC4C5711D54ECE0027AA9F /* EarthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthViewController.m; sourceTree = "<group>"; };
+		28EC4C5811D54ECE0027AA9F /* EarthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EarthViewController.xib; sourceTree = "<group>"; };
+		28FD14FC0DC6FC130079059D /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		28FD14FD0DC6FC130079059D /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Earth_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Earth_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Earth-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Earth-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BA1FF2DB131333B200FE656A /* EarthRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthRenderer.h; sourceTree = "<group>"; };
+		BA1FF2DC131333B200FE656A /* EarthRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EarthRenderer.mm; sourceTree = "<group>"; };
+		BA1FF64713149BCC00FE656A /* CS123Algebra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CS123Algebra.h; sourceTree = "<group>"; };
+		BA1FF64813149BCC00FE656A /* CS123Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CS123Matrix.cpp; sourceTree = "<group>"; };
+		BA1FF64913149BCC00FE656A /* CS123Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CS123Matrix.h; sourceTree = "<group>"; };
+		BA1FF64A13149BCC00FE656A /* CS123Matrix.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CS123Matrix.inl; sourceTree = "<group>"; };
+		BA1FF64B13149BCC00FE656A /* CS123Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CS123Vector.h; sourceTree = "<group>"; };
+		BA1FF64C13149BCD00FE656A /* CS123Vector.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CS123Vector.inl; sourceTree = "<group>"; };
+		BA1FF65013149BE800FE656A /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		BA1FF65113149BE800FE656A /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		BA1FF7491314C17B00FE656A /* OrbitingCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitingCamera.h; sourceTree = "<group>"; };
+		BA1FF74A1314C17B00FE656A /* OrbitingCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OrbitingCamera.cpp; sourceTree = "<group>"; };
+		BA1FF83C1314D5D400FE656A /* Clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Clouds.jpg; sourceTree = "<group>"; };
+		BA1FF83D1314D5D400FE656A /* Day.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Day.jpg; sourceTree = "<group>"; };
+		BA1FF83E1314D5D400FE656A /* Night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Night.jpg; sourceTree = "<group>"; };
+		BA1FF8721314DA2D00FE656A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA1FF9C413156D5100FE656A /* GLESFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESFileLoader.h; sourceTree = "<group>"; };
+		BA1FF9C513156D5100FE656A /* GLESFileLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESFileLoader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				BA1FF8731314DA2D00FE656A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BA1FF4D31313AE7E00FE656A /* camera */,
+				28FD14FC0DC6FC130079059D /* EAGLView.h */,
+				28FD14FD0DC6FC130079059D /* EAGLView.m */,
+				1D3623240D0F684500981E51 /* EarthAppDelegate.h */,
+				1D3623250D0F684500981E51 /* EarthAppDelegate.m */,
+				28EC4C5611D54ECE0027AA9F /* EarthViewController.h */,
+				28EC4C5711D54ECE0027AA9F /* EarthViewController.m */,
+				BA1FF2DB131333B200FE656A /* EarthRenderer.h */,
+				BA1FF2DC131333B200FE656A /* EarthRenderer.mm */,
+				BA1FF9C413156D5100FE656A /* GLESFileLoader.h */,
+				BA1FF9C513156D5100FE656A /* GLESFileLoader.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Earth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2514C27610084DB600A42282 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				2514C27910084DCA00A42282 /* Earth.frag */,
+				2514C27A10084DCA00A42282 /* Earth.vert */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				2514C27610084DB600A42282 /* Shaders */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Earth_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA1FF83C1314D5D400FE656A /* Clouds.jpg */,
+				BA1FF83D1314D5D400FE656A /* Day.jpg */,
+				BA1FF83E1314D5D400FE656A /* Night.jpg */,
+				28EC4C5811D54ECE0027AA9F /* EarthViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Earth-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA1FF8721314DA2D00FE656A /* CoreGraphics.framework */,
+				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
+				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA1FF4D31313AE7E00FE656A /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				BA1FF64613149BCC00FE656A /* math */,
+				BA1FF65013149BE800FE656A /* Camera.h */,
+				BA1FF65113149BE800FE656A /* Camera.cpp */,
+				BA1FF7491314C17B00FE656A /* OrbitingCamera.h */,
+				BA1FF74A1314C17B00FE656A /* OrbitingCamera.cpp */,
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+		BA1FF64613149BCC00FE656A /* math */ = {
+			isa = PBXGroup;
+			children = (
+				BA1FF64713149BCC00FE656A /* CS123Algebra.h */,
+				BA1FF64813149BCC00FE656A /* CS123Matrix.cpp */,
+				BA1FF64913149BCC00FE656A /* CS123Matrix.h */,
+				BA1FF64A13149BCC00FE656A /* CS123Matrix.inl */,
+				BA1FF64B13149BCC00FE656A /* CS123Vector.h */,
+				BA1FF64C13149BCD00FE656A /* CS123Vector.inl */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Earth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Earth" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Earth;
+			productName = Earth;
+			productReference = 1D6058910D05DD3D006BFB54 /* Earth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Earth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Earth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2514C27B10084DCA00A42282 /* Earth.frag in Resources */,
+				2514C27C10084DCA00A42282 /* Earth.vert in Resources */,
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				28EC4C5A11D54ECE0027AA9F /* EarthViewController.xib in Resources */,
+				BA1FF64E13149BCD00FE656A /* CS123Matrix.inl in Resources */,
+				BA1FF64F13149BCD00FE656A /* CS123Vector.inl in Resources */,
+				BA1FF83F1314D5D400FE656A /* Clouds.jpg in Resources */,
+				BA1FF8401314D5D400FE656A /* Day.jpg in Resources */,
+				BA1FF8411314D5D400FE656A /* Night.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* EarthAppDelegate.m in Sources */,
+				28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */,
+				28EC4C5911D54ECE0027AA9F /* EarthViewController.m in Sources */,
+				BA1FF2DD131333B200FE656A /* EarthRenderer.mm in Sources */,
+				BA1FF64D13149BCD00FE656A /* CS123Matrix.cpp in Sources */,
+				BA1FF65213149BE800FE656A /* Camera.cpp in Sources */,
+				BA1FF74B1314C17B00FE656A /* OrbitingCamera.cpp in Sources */,
+				BA1FF9C613156D5100FE656A /* GLESFileLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Earth_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Earth-Info.plist";
+				PRODUCT_NAME = Earth;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Earth_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Earth-Info.plist";
+				PRODUCT_NAME = Earth;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Earth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Earth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
