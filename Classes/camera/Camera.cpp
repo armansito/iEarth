@@ -14,7 +14,7 @@ Camera::Camera()
 	aspect_ratio = 320.f/480.f;
 	height = 45.f;
 	near = 0.1f;
-	far = 2000.f;
+	far = 30000.f;
 	Vector3 eye(3,0,3);
 	Vector3 look(-1,0,-1);
 	Vector3 up(0,1,0);

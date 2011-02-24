@@ -58,15 +58,15 @@
 	};
 	28FD14FD0DC6FC130079059D /* EAGLView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1141, 2886}}";
-			sepNavSelRange = "{2047, 0}";
-			sepNavVisRange = "{1794, 1829}";
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 2756}}";
+			sepNavSelRange = "{2049, 0}";
+			sepNavVisRange = "{28, 1463}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = BA1FF2C413132EDA00FE656A /* Earth */;
-		activeSDKPreference = iphoneos4.3;
+		activeSDKPreference = iphonesimulator4.3;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Earth */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Earth */,
@@ -552,6 +552,24 @@
 			BA1FFD681316133D00FE656A /* PBXTextBookmark */ = BA1FFD681316133D00FE656A /* PBXTextBookmark */;
 			BA1FFD691316133D00FE656A /* PBXTextBookmark */ = BA1FFD691316133D00FE656A /* PBXTextBookmark */;
 			BA1FFD6A1316133D00FE656A /* PBXTextBookmark */ = BA1FFD6A1316133D00FE656A /* PBXTextBookmark */;
+			BA1FFD81131646FF00FE656A /* PBXTextBookmark */ = BA1FFD81131646FF00FE656A /* PBXTextBookmark */;
+			BA1FFD82131646FF00FE656A /* PBXTextBookmark */ = BA1FFD82131646FF00FE656A /* PBXTextBookmark */;
+			BA1FFD83131646FF00FE656A /* PBXTextBookmark */ = BA1FFD83131646FF00FE656A /* PBXTextBookmark */;
+			BA1FFD84131646FF00FE656A /* PBXTextBookmark */ = BA1FFD84131646FF00FE656A /* PBXTextBookmark */;
+			BA1FFD85131646FF00FE656A /* PBXTextBookmark */ = BA1FFD85131646FF00FE656A /* PBXTextBookmark */;
+			BA1FFD86131646FF00FE656A /* PBXTextBookmark */ = BA1FFD86131646FF00FE656A /* PBXTextBookmark */;
+			BA1FFD92131649F600FE656A /* PBXTextBookmark */ = BA1FFD92131649F600FE656A /* PBXTextBookmark */;
+			BA1FFD93131649F600FE656A /* PBXTextBookmark */ = BA1FFD93131649F600FE656A /* PBXTextBookmark */;
+			BA1FFD94131649F600FE656A /* PBXTextBookmark */ = BA1FFD94131649F600FE656A /* PBXTextBookmark */;
+			BA1FFD95131649F600FE656A /* PBXTextBookmark */ = BA1FFD95131649F600FE656A /* PBXTextBookmark */;
+			BA1FFD9813164A1600FE656A /* PBXTextBookmark */ = BA1FFD9813164A1600FE656A /* PBXTextBookmark */;
+			BA1FFD9913164A1600FE656A /* PBXTextBookmark */ = BA1FFD9913164A1600FE656A /* PBXTextBookmark */;
+			BA1FFD9A13164A1600FE656A /* PBXTextBookmark */ = BA1FFD9A13164A1600FE656A /* PBXTextBookmark */;
+			BA1FFD9B13164A1600FE656A /* PBXTextBookmark */ = BA1FFD9B13164A1600FE656A /* PBXTextBookmark */;
+			BA1FFD9C13164AB100FE656A /* PBXTextBookmark */ = BA1FFD9C13164AB100FE656A /* PBXTextBookmark */;
+			BA1FFD9F13164AF900FE656A /* PBXTextBookmark */ = BA1FFD9F13164AF900FE656A /* PBXTextBookmark */;
+			BA1FFDA013164AF900FE656A /* PBXTextBookmark */ = BA1FFDA013164AF900FE656A /* PBXTextBookmark */;
+			BA1FFDA113164AF900FE656A /* PBXTextBookmark */ = BA1FFDA113164AF900FE656A /* PBXTextBookmark */;
 		};
 		sourceControlManager = BA1FF2D213132F0F00FE656A /* Source Control */;
 		userBuildSettings = {
@@ -620,15 +638,15 @@
 	BA1FF2DB131333B200FE656A /* EarthRenderer.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1141, 650}}";
-			sepNavSelRange = "{727, 0}";
-			sepNavVisRange = "{0, 1021}";
+			sepNavSelRange = "{702, 0}";
+			sepNavVisRange = "{23, 1003}";
 		};
 	};
 	BA1FF2DC131333B200FE656A /* EarthRenderer.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1141, 3874}}";
-			sepNavSelRange = "{6259, 0}";
-			sepNavVisRange = "{5827, 1584}";
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 4368}}";
+			sepNavSelRange = "{292, 0}";
+			sepNavVisRange = "{0, 862}";
 		};
 	};
 	BA1FF4891313AAF100FE656A /* PBXTextBookmark */ = {
@@ -647,6 +665,11 @@
 		name = gl.h;
 		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 11466}}";
+			sepNavSelRange = "{27707, 58}";
+			sepNavVisRange = "{26730, 3833}";
+		};
 	};
 	BA1FF48E1313AAF100FE656A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -804,9 +827,9 @@
 	};
 	BA1FF65113149BE800FE656A /* Camera.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1141, 1430}}";
-			sepNavSelRange = "{151, 0}";
-			sepNavVisRange = "{0, 704}";
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 1417}}";
+			sepNavSelRange = "{251, 0}";
+			sepNavVisRange = "{3, 736}";
 		};
 	};
 	BA1FF65413149CD200FE656A /* PBXTextBookmark */ = {
@@ -1015,6 +1038,11 @@
 		name = gl.h;
 		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1426, 10244}}";
+			sepNavSelRange = "{20178, 66}";
+			sepNavVisRange = "{18930, 3328}";
+		};
 	};
 	BA1FF8A11314DD3700FE656A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1082,7 +1110,7 @@
 		fRef = BA1FF65113149BE800FE656A /* Camera.cpp */;
 		name = "Camera.cpp: 64";
 		rLen = 0;
-		rLoc = 1224;
+		rLoc = 1225;
 		rType = 0;
 		vrLen = 1312;
 		vrLoc = 738;
@@ -1112,7 +1140,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 16";
 		rLen = 0;
-		rLoc = 504;
+		rLoc = 505;
 		rType = 0;
 		vrLen = 1539;
 		vrLoc = 0;
@@ -1192,7 +1220,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 16";
 		rLen = 0;
-		rLoc = 504;
+		rLoc = 505;
 		rType = 0;
 		vrLen = 1572;
 		vrLoc = 0;
@@ -1202,7 +1230,7 @@
 		fRef = BA1FF65113149BE800FE656A /* Camera.cpp */;
 		name = "Camera.cpp: 64";
 		rLen = 0;
-		rLoc = 1224;
+		rLoc = 1225;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 659;
@@ -1302,7 +1330,7 @@
 		fRef = BA1FF65113149BE800FE656A /* Camera.cpp */;
 		name = "Camera.cpp: 46";
 		rLen = 76;
-		rLoc = 741;
+		rLoc = 742;
 		rType = 0;
 		vrLen = 1392;
 		vrLoc = 657;
@@ -1562,7 +1590,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 185";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 1853;
@@ -1632,7 +1660,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 19";
 		rLen = 0;
-		rLoc = 516;
+		rLoc = 517;
 		rType = 0;
 		vrLen = 769;
 		vrLoc = 0;
@@ -1672,7 +1700,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 33";
 		rLen = 0;
-		rLoc = 895;
+		rLoc = 896;
 		rType = 0;
 		vrLen = 1338;
 		vrLoc = 0;
@@ -1732,7 +1760,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 33";
 		rLen = 0;
-		rLoc = 895;
+		rLoc = 896;
 		rType = 0;
 		vrLen = 1338;
 		vrLoc = 0;
@@ -1742,7 +1770,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 22";
 		rLen = 0;
-		rLoc = 546;
+		rLoc = 547;
 		rType = 0;
 		vrLen = 1270;
 		vrLoc = 0;
@@ -1752,7 +1780,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 114";
 		rLen = 0;
-		rLoc = 3045;
+		rLoc = 3046;
 		rType = 0;
 		vrLen = 1262;
 		vrLoc = 2077;
@@ -1792,7 +1820,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 21";
 		rLen = 0;
-		rLoc = 546;
+		rLoc = 547;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 0;
@@ -1852,7 +1880,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 21";
 		rLen = 0;
-		rLoc = 546;
+		rLoc = 547;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 0;
@@ -1862,7 +1890,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 176";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1552;
 		vrLoc = 3681;
@@ -1892,7 +1920,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 183";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1570;
 		vrLoc = 3663;
@@ -1902,7 +1930,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 192";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1529;
 		vrLoc = 3780;
@@ -1912,7 +1940,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 192";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1525;
 		vrLoc = 3780;
@@ -1934,7 +1962,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 192";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1502;
 		vrLoc = 3803;
@@ -1944,7 +1972,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 192";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1506;
 		vrLoc = 3803;
@@ -1958,7 +1986,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 192";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1506;
 		vrLoc = 3803;
@@ -1968,7 +1996,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 193";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1516;
 		vrLoc = 3803;
@@ -1988,7 +2016,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 192";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1509;
 		vrLoc = 3803;
@@ -2018,7 +2046,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 169";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1640;
 		vrLoc = 3778;
@@ -2078,7 +2106,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 182";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1662;
 		vrLoc = 3778;
@@ -2088,7 +2116,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 173";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1683;
 		vrLoc = 3829;
@@ -2240,13 +2268,13 @@
 	BA1FFABD1315B46300FE656A /* Moon.vert */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1141, 728}}";
-			sepNavSelRange = "{296, 0}";
-			sepNavVisRange = "{131, 1130}";
+			sepNavSelRange = "{295, 0}";
+			sepNavVisRange = "{132, 1127}";
 		};
 	};
 	BA1FFABF1315B46C00FE656A /* Moon.frag */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 502}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 602}}";
 			sepNavSelRange = "{354, 0}";
 			sepNavVisRange = "{0, 528}";
 		};
@@ -2305,7 +2333,7 @@
 		isa = PBXTextBookmark;
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		rLen = 1;
-		rLoc = 276;
+		rLoc = 278;
 		rType = 1;
 	};
 	BA1FFAD11315B6A200FE656A /* PBXTextBookmark */ = {
@@ -2313,7 +2341,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 226";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1604;
 		vrLoc = 4366;
@@ -2333,7 +2361,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 193";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1243;
 		vrLoc = 3440;
@@ -2363,7 +2391,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 30";
 		rLen = 0;
-		rLoc = 591;
+		rLoc = 590;
 		rType = 0;
 		vrLen = 576;
 		vrLoc = 0;
@@ -2373,7 +2401,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 27";
 		rLen = 0;
-		rLoc = 410;
+		rLoc = 409;
 		rType = 0;
 		vrLen = 765;
 		vrLoc = 0;
@@ -2393,7 +2421,7 @@
 		comments = "'rot' was not declared in this scope";
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		rLen = 1;
-		rLoc = 226;
+		rLoc = 228;
 		rType = 1;
 	};
 	BA1FFAE21315BB6B00FE656A /* PBXTextBookmark */ = {
@@ -2401,7 +2429,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 183";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1004;
 		vrLoc = 3682;
@@ -2411,7 +2439,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 27";
 		rLen = 0;
-		rLoc = 410;
+		rLoc = 409;
 		rType = 0;
 		vrLen = 765;
 		vrLoc = 0;
@@ -2481,7 +2509,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 183";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1004;
 		vrLoc = 3682;
@@ -2491,7 +2519,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 193";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 3440;
@@ -2531,7 +2559,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 21";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 320;
 		rType = 0;
 		vrLen = 721;
 		vrLoc = 0;
@@ -2541,7 +2569,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 18";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 268;
 		rType = 0;
 		vrLen = 746;
 		vrLoc = 17;
@@ -2551,7 +2579,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 22";
 		rLen = 0;
-		rLoc = 345;
+		rLoc = 344;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 17;
@@ -2571,7 +2599,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 168";
 		rLen = 0;
-		rLoc = 4317;
+		rLoc = 4344;
 		rType = 0;
 		vrLen = 948;
 		vrLoc = 3654;
@@ -2585,7 +2613,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 218";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1290;
 		vrLoc = 4633;
@@ -2625,7 +2653,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 38";
 		rLen = 0;
-		rLoc = 664;
+		rLoc = 663;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 17;
@@ -2635,7 +2663,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 218";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1290;
 		vrLoc = 4633;
@@ -2645,7 +2673,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 167";
 		rLen = 0;
-		rLoc = 4278;
+		rLoc = 4305;
 		rType = 0;
 		vrLen = 713;
 		vrLoc = 3501;
@@ -2665,7 +2693,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 29";
 		rLen = 0;
-		rLoc = 413;
+		rLoc = 412;
 		rType = 0;
 		vrLen = 762;
 		vrLoc = 3;
@@ -2675,7 +2703,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 183";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1096;
 		vrLoc = 4181;
@@ -2685,7 +2713,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 184";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1133;
 		vrLoc = 3995;
@@ -2695,7 +2723,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 184";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1164;
 		vrLoc = 3995;
@@ -2715,7 +2743,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 40";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1252;
 		rType = 0;
 		vrLen = 745;
 		vrLoc = 17;
@@ -2725,7 +2753,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 18";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 268;
 		rType = 0;
 		vrLen = 746;
 		vrLoc = 17;
@@ -2735,7 +2763,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 33";
 		rLen = 0;
-		rLoc = 555;
+		rLoc = 554;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 17;
@@ -2745,7 +2773,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 40";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1255;
 		rType = 0;
 		vrLen = 752;
 		vrLoc = 17;
@@ -2805,7 +2833,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 19";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 295;
 		rType = 0;
 		vrLen = 752;
 		vrLoc = 17;
@@ -2815,7 +2843,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 19";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 295;
 		rType = 0;
 		vrLen = 752;
 		vrLoc = 17;
@@ -2825,7 +2853,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 19";
 		rLen = 0;
-		rLoc = 293;
+		rLoc = 292;
 		rType = 0;
 		vrLen = 753;
 		vrLoc = 17;
@@ -2835,7 +2863,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 40";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1255;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 17;
@@ -2865,7 +2893,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 40";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1255;
 		rType = 0;
 		vrLen = 752;
 		vrLoc = 17;
@@ -2875,7 +2903,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 33";
 		rLen = 0;
-		rLoc = 555;
+		rLoc = 554;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 17;
@@ -2885,7 +2913,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 19";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 295;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 17;
@@ -2895,7 +2923,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 40";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1252;
 		rType = 0;
 		vrLen = 755;
 		vrLoc = 17;
@@ -2905,7 +2933,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 18";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 268;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 17;
@@ -2915,7 +2943,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 40";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1252;
 		rType = 0;
 		vrLen = 755;
 		vrLoc = 17;
@@ -2925,7 +2953,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 30";
 		rLen = 0;
-		rLoc = 454;
+		rLoc = 453;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 17;
@@ -2935,7 +2963,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 184";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1164;
 		vrLoc = 3995;
@@ -2945,7 +2973,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 167";
 		rLen = 0;
-		rLoc = 4278;
+		rLoc = 4305;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 3501;
@@ -2955,7 +2983,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 167";
 		rLen = 0;
-		rLoc = 4278;
+		rLoc = 4305;
 		rType = 0;
 		vrLen = 739;
 		vrLoc = 3501;
@@ -3085,7 +3113,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 167";
 		rLen = 0;
-		rLoc = 4278;
+		rLoc = 4305;
 		rType = 0;
 		vrLen = 739;
 		vrLoc = 3501;
@@ -3095,7 +3123,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 129";
 		rLen = 0;
-		rLoc = 3432;
+		rLoc = 3433;
 		rType = 0;
 		vrLen = 820;
 		vrLoc = 2716;
@@ -3105,7 +3133,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 130";
 		rLen = 0;
-		rLoc = 3433;
+		rLoc = 3434;
 		rType = 0;
 		vrLen = 822;
 		vrLoc = 2716;
@@ -3115,7 +3143,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 168";
 		rLen = 0;
-		rLoc = 4317;
+		rLoc = 4344;
 		rType = 0;
 		vrLen = 687;
 		vrLoc = 3450;
@@ -3125,7 +3153,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 168";
 		rLen = 0;
-		rLoc = 4317;
+		rLoc = 4344;
 		rType = 0;
 		vrLen = 1128;
 		vrLoc = 3748;
@@ -3135,7 +3163,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 169";
 		rLen = 0;
-		rLoc = 5016;
+		rLoc = 5043;
 		rType = 0;
 		vrLen = 1210;
 		vrLoc = 3748;
@@ -3145,7 +3173,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 19";
 		rLen = 0;
-		rLoc = 297;
+		rLoc = 296;
 		rType = 0;
 		vrLen = 771;
 		vrLoc = 3;
@@ -3175,7 +3203,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 27";
 		rLen = 0;
-		rLoc = 475;
+		rLoc = 476;
 		rType = 0;
 		vrLen = 620;
 		vrLoc = 23;
@@ -3273,7 +3301,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 27";
 		rLen = 0;
-		rLoc = 482;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 643;
 		vrLoc = 0;
@@ -3283,7 +3311,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 229";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1433;
 		vrLoc = 5428;
@@ -3363,7 +3391,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 229";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1396;
 		vrLoc = 5428;
@@ -3433,7 +3461,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 18";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 268;
 		rType = 0;
 		vrLen = 700;
 		vrLoc = 3;
@@ -3473,7 +3501,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 229";
 		rLen = 0;
-		rLoc = 5145;
+		rLoc = 5172;
 		rType = 0;
 		vrLen = 1055;
 		vrLoc = 3662;
@@ -3640,7 +3668,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 136";
 		rLen = 0;
-		rLoc = 3433;
+		rLoc = 3434;
 		rType = 0;
 		vrLen = 820;
 		vrLoc = 2783;
@@ -3650,7 +3678,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 136";
 		rLen = 0;
-		rLoc = 3433;
+		rLoc = 3434;
 		rType = 0;
 		vrLen = 846;
 		vrLoc = 2783;
@@ -3680,7 +3708,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 18";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 266;
 		rType = 0;
 		vrLen = 699;
 		vrLoc = 3;
@@ -3690,7 +3718,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 18";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 266;
 		rType = 0;
 		vrLen = 699;
 		vrLoc = 3;
@@ -3710,7 +3738,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 44";
 		rLen = 0;
-		rLoc = 877;
+		rLoc = 876;
 		rType = 0;
 		vrLen = 966;
 		vrLoc = 300;
@@ -3830,7 +3858,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 44";
 		rLen = 0;
-		rLoc = 877;
+		rLoc = 876;
 		rType = 0;
 		vrLen = 966;
 		vrLoc = 300;
@@ -3880,7 +3908,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 44";
 		rLen = 0;
-		rLoc = 877;
+		rLoc = 876;
 		rType = 0;
 		vrLen = 966;
 		vrLoc = 300;
@@ -3890,7 +3918,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 50";
 		rLen = 0;
-		rLoc = 1127;
+		rLoc = 1126;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 326;
@@ -3900,7 +3928,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 51";
 		rLen = 0;
-		rLoc = 1172;
+		rLoc = 1171;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 326;
@@ -3910,7 +3938,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 51";
 		rLen = 0;
-		rLoc = 1172;
+		rLoc = 1171;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 326;
@@ -3920,7 +3948,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 51";
 		rLen = 0;
-		rLoc = 1171;
+		rLoc = 1170;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 326;
@@ -3930,7 +3958,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 50";
 		rLen = 0;
-		rLoc = 1127;
+		rLoc = 1126;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 326;
@@ -3940,7 +3968,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 51";
 		rLen = 0;
-		rLoc = 1171;
+		rLoc = 1170;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 326;
@@ -3950,7 +3978,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 51";
 		rLen = 0;
-		rLoc = 1171;
+		rLoc = 1170;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 326;
@@ -3972,7 +4000,7 @@
 		rLen = 0;
 		rLoc = 488;
 		rType = 0;
-		vrLen = 568;
+		vrLen = 528;
 		vrLoc = 0;
 	};
 	BA1FFC281315E81600FE656A /* PBXTextBookmark */ = {
@@ -3982,7 +4010,7 @@
 		rLen = 0;
 		rLoc = 419;
 		rType = 0;
-		vrLen = 572;
+		vrLen = 528;
 		vrLoc = 0;
 	};
 	BA1FFC2B1315E85700FE656A /* PBXTextBookmark */ = {
@@ -4010,7 +4038,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 51";
 		rLen = 0;
-		rLoc = 1171;
+		rLoc = 1170;
 		rType = 0;
 		vrLen = 941;
 		vrLoc = 325;
@@ -4020,7 +4048,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 50";
 		rLen = 0;
-		rLoc = 1127;
+		rLoc = 1126;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 326;
@@ -4030,7 +4058,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 50";
 		rLen = 0;
-		rLoc = 1127;
+		rLoc = 1126;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 326;
@@ -4058,7 +4086,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 34";
 		rLen = 0;
-		rLoc = 591;
+		rLoc = 590;
 		rType = 0;
 		vrLen = 939;
 		vrLoc = 186;
@@ -4068,7 +4096,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 42";
 		rLen = 0;
-		rLoc = 732;
+		rLoc = 731;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 274;
@@ -4098,7 +4126,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 249";
 		rLen = 0;
-		rLoc = 7499;
+		rLoc = 7530;
 		rType = 0;
 		vrLen = 1179;
 		vrLoc = 4873;
@@ -4186,7 +4214,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 268;
 		rType = 0;
 		vrLen = 651;
 		vrLoc = 3;
@@ -4196,7 +4224,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 52";
 		rLen = 0;
-		rLoc = 1230;
+		rLoc = 1229;
 		rType = 0;
 		vrLen = 897;
 		vrLoc = 369;
@@ -4206,7 +4234,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 52";
 		rLen = 0;
-		rLoc = 1230;
+		rLoc = 1229;
 		rType = 0;
 		vrLen = 897;
 		vrLoc = 369;
@@ -4216,7 +4244,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 219";
 		rLen = 0;
-		rLoc = 6284;
+		rLoc = 6315;
 		rType = 0;
 		vrLen = 1546;
 		vrLoc = 4874;
@@ -4243,7 +4271,7 @@
 		fRef = BA1FF65113149BE800FE656A /* Camera.cpp */;
 		name = "Camera.cpp: 26";
 		rLen = 0;
-		rLoc = 379;
+		rLoc = 380;
 		rType = 0;
 		vrLen = 653;
 		vrLoc = 3;
@@ -4253,7 +4281,7 @@
 		fRef = BA1FF65113149BE800FE656A /* Camera.cpp */;
 		name = "Camera.cpp: 25";
 		rLen = 0;
-		rLoc = 379;
+		rLoc = 380;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 3;
@@ -4273,7 +4301,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 190";
 		rLen = 0;
-		rLoc = 5426;
+		rLoc = 5453;
 		rType = 0;
 		vrLen = 1364;
 		vrLoc = 4095;
@@ -4313,7 +4341,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 161";
 		rLen = 0;
-		rLoc = 4007;
+		rLoc = 4034;
 		rType = 0;
 		vrLen = 831;
 		vrLoc = 3110;
@@ -4340,9 +4368,9 @@
 	};
 	BA1FFC9F1315F91D00FE656A /* Sun.vert */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1141, 627}}";
-			sepNavSelRange = "{244, 0}";
-			sepNavVisRange = "{0, 451}";
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 602}}";
+			sepNavSelRange = "{263, 0}";
+			sepNavVisRange = "{0, 452}";
 		};
 	};
 	BA1FFCA11315F92500FE656A /* Sun.frag */ = {
@@ -4426,7 +4454,7 @@
 		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
 		name = "Moon.vert: 17";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 295;
 		rType = 0;
 		vrLen = 1130;
 		vrLoc = 131;
@@ -4436,7 +4464,7 @@
 		fRef = BA1FFC9F1315F91D00FE656A /* Sun.vert */;
 		name = "Sun.vert: 16";
 		rLen = 0;
-		rLoc = 266;
+		rLoc = 267;
 		rType = 0;
 		vrLen = 453;
 		vrLoc = 0;
@@ -4446,7 +4474,7 @@
 		fRef = BA1FF65113149BE800FE656A /* Camera.cpp */;
 		name = "Camera.cpp: 17";
 		rLen = 0;
-		rLoc = 247;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 742;
 		vrLoc = 0;
@@ -4466,7 +4494,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 277";
 		rLen = 0;
-		rLoc = 7517;
+		rLoc = 7548;
 		rType = 0;
 		vrLen = 1308;
 		vrLoc = 6540;
@@ -4536,7 +4564,7 @@
 		fRef = BA1FF65113149BE800FE656A /* Camera.cpp */;
 		name = "Camera.cpp: 17";
 		rLen = 0;
-		rLoc = 247;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 739;
 		vrLoc = 0;
@@ -4556,7 +4584,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 15";
 		rLen = 0;
-		rLoc = 294;
+		rLoc = 295;
 		rType = 0;
 		vrLen = 906;
 		vrLoc = 0;
@@ -4566,7 +4594,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 17";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 297;
 		rType = 0;
 		vrLen = 1206;
 		vrLoc = 33;
@@ -4576,7 +4604,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 264";
 		rLen = 0;
-		rLoc = 7069;
+		rLoc = 7100;
 		rType = 0;
 		vrLen = 1542;
 		vrLoc = 6262;
@@ -4942,7 +4970,7 @@
 		fRef = BA1FF65113149BE800FE656A /* Camera.cpp */;
 		name = "Camera.cpp: 19";
 		rLen = 0;
-		rLoc = 289;
+		rLoc = 290;
 		rType = 0;
 		vrLen = 682;
 		vrLoc = 3;
@@ -4972,7 +5000,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 152";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 3813;
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 3011;
@@ -5032,7 +5060,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 254";
 		rLen = 0;
-		rLoc = 6281;
+		rLoc = 6312;
 		rType = 0;
 		vrLen = 1584;
 		vrLoc = 5827;
@@ -5056,5 +5084,185 @@
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 3653;
+	};
+	BA1FFD81131646FF00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* EarthViewController.mm */;
+		name = "EarthViewController.mm: 181";
+		rLen = 0;
+		rLoc = 4323;
+		rType = 0;
+		vrLen = 956;
+		vrLoc = 3656;
+	};
+	BA1FFD82131646FF00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28FD14FC0DC6FC130079059D /* EAGLView.h */;
+		name = "EAGLView.h: 27";
+		rLen = 0;
+		rLoc = 729;
+		rType = 0;
+		vrLen = 1006;
+		vrLoc = 0;
+	};
+	BA1FFD83131646FF00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF48D1313AAF100FE656A /* gl.h */;
+		name = "gl.h: 693";
+		rLen = 58;
+		rLoc = 27707;
+		rType = 0;
+		vrLen = 3833;
+		vrLoc = 26730;
+	};
+	BA1FFD84131646FF00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF89B1314DAA800FE656A /* gl.h */;
+		name = "gl.h: 507";
+		rLen = 66;
+		rLoc = 20178;
+		rType = 0;
+		vrLen = 3328;
+		vrLoc = 18930;
+	};
+	BA1FFD85131646FF00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 139";
+		rLen = 0;
+		rLoc = 3461;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 2704;
+	};
+	BA1FFD86131646FF00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DB131333B200FE656A /* EarthRenderer.h */;
+		name = "EarthRenderer.h: 27";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 950;
+		vrLoc = 76;
+	};
+	BA1FFD92131649F600FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DB131333B200FE656A /* EarthRenderer.h */;
+		name = "EarthRenderer.h: 29";
+		rLen = 0;
+		rLoc = 702;
+		rType = 0;
+		vrLen = 1003;
+		vrLoc = 23;
+	};
+	BA1FFD93131649F600FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FFC9F1315F91D00FE656A /* Sun.vert */;
+		name = "Sun.vert: 16";
+		rLen = 0;
+		rLoc = 263;
+		rType = 0;
+		vrLen = 452;
+		vrLoc = 0;
+	};
+	BA1FFD94131649F600FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 15";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 0;
+	};
+	BA1FFD95131649F600FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 15";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 0;
+	};
+	BA1FFD9813164A1600FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 15";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 0;
+	};
+	BA1FFD9913164A1600FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */;
+		name = "EAGLView.m: 84";
+		rLen = 0;
+		rLoc = 2049;
+		rType = 0;
+		vrLen = 1463;
+		vrLoc = 28;
+	};
+	BA1FFD9A13164A1600FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF65113149BE800FE656A /* Camera.cpp */;
+		name = "Camera.cpp: 10";
+		rLen = 0;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 0;
+	};
+	BA1FFD9B13164A1600FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF65113149BE800FE656A /* Camera.cpp */;
+		name = "Camera.cpp: 17";
+		rLen = 0;
+		rLoc = 248;
+		rType = 0;
+		vrLen = 702;
+		vrLoc = 3;
+	};
+	BA1FFD9C13164AB100FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF65113149BE800FE656A /* Camera.cpp */;
+		name = "Camera.cpp: 17";
+		rLen = 0;
+		rLoc = 251;
+		rType = 0;
+		vrLen = 736;
+		vrLoc = 3;
+	};
+	BA1FFD9F13164AF900FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF65113149BE800FE656A /* Camera.cpp */;
+		name = "Camera.cpp: 17";
+		rLen = 0;
+		rLoc = 251;
+		rType = 0;
+		vrLen = 736;
+		vrLoc = 3;
+	};
+	BA1FFDA013164AF900FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FFABF1315B46C00FE656A /* Moon.frag */;
+		name = "Moon.frag: 17";
+		rLen = 0;
+		rLoc = 354;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	BA1FFDA113164AF900FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
+		name = "Moon.vert: 17";
+		rLen = 0;
+		rLoc = 295;
+		rType = 0;
+		vrLen = 1127;
+		vrLoc = 132;
 	};
 }

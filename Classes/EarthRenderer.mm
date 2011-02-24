@@ -12,7 +12,7 @@
 #import "GLESFileLoader.h"
 
 #define RES 50
-#define SUN_DISTANCE 1000.f
+#define SUN_DISTANCE 20000.f
 
 @interface EarthRenderer(PrivateMethods)
 
@@ -136,7 +136,6 @@
 		glEnable(GL_TEXTURE_2D);
 		glEnable(GL_CULL_FACE);
 		glEnable(GL_DEPTH_TEST);
-		glBlendFunc(GL_ONE, GL_SRC_COLOR);
 		
 		m_camera = new OrbitingCamera();
 		[self updateMatrices];
@@ -151,8 +150,11 @@
 - (void)speedUp:(BOOL)up
 {
 	if (up) 
-		speed_factor *= 2;
-	else speed_factor *= 0.5;
+		speed_factor *= 2.f;
+	else { 
+		CGFloat temp = speed_factor * 0.5;
+		if (temp > 0.f) speed_factor = temp;
+	}
 }
 
 - (void)trackMoon:(BOOL)track
@@ -224,7 +226,7 @@
 	glUniformMatrix4fv(glGetUniformLocation(moon_program, "proj"), 1, GL_FALSE, proj);
 	
 	glUniform1f(glGetUniformLocation(moon_program, "rotate"), rotate);
-	rotate += 0.0001*speed_factor;
+	rotate += 0.00033333*speed_factor;
 	
 	glUniform3f(glGetUniformLocation(moon_program, "LightPosition"), SUN_DISTANCE, 0.0, 0.0);
 	glUniform1i(glGetUniformLocation(moon_program, "MoonTexture"), 0);

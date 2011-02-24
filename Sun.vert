@@ -13,7 +13,7 @@ uniform mat4 mv;
 uniform mat4 proj;
 
 uniform float transx;
-const float s = 50.0;
+const float s = 100.0;
 
 varying vec2 TexCoord;
 

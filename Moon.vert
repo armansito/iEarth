@@ -13,8 +13,8 @@ uniform mat4 mv;
 uniform mat4 proj;
 
 uniform float rotate;
-const float tranz = 100.0;
-const float scale = 1.0;
+const float tranz = 60.0;
+const float scale = 0.3;
 
 varying float Diffuse;
 varying vec3  Specular;
