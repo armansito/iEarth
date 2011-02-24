@@ -10,6 +10,7 @@
 
 #import "EarthViewController.h"
 #import "EAGLView.h"
+#import "OrbitingCamera.h"
 
 // Uniform index.
 enum {
@@ -159,6 +160,17 @@ enum {
     [super didReceiveMemoryWarning];
     
     // Release any cached data, images, etc. that aren't in use.
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+	if (interfaceOrientation == UIInterfaceOrientationPortrait || interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown) {
+		earthRenderer.camera->setSize(self.view.frame.size.width, self.view.frame.size.height);
+	} else {
+		earthRenderer.camera->setSize(self.view.frame.size.height, self.view.frame.size.width);
+	}
+
+	return YES;
 }
 
 @end

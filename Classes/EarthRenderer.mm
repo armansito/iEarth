@@ -13,8 +13,21 @@
 
 #define RES 50
 
+@interface EarthRenderer(PrivateMethods)
+
+- (void)renderEarth;
+- (void)renderMoon;
+
+@end
+
 @implementation EarthRenderer
 
+@dynamic camera;
+
+- (OrbitingCamera *)camera
+{
+	return m_camera;
+}
 
 - (id)init
 {
@@ -111,6 +124,7 @@
 		}
 		
 		program = [GLESFileLoader loadShaderNamed:@"Earth"];
+		moon_program = [GLESFileLoader loadShaderNamed:@"Moon"];
 		
 		mv_loc = glGetUniformLocation(program, "mv");
 		proj_loc = glGetUniformLocation(program, "proj");
@@ -118,7 +132,7 @@
 		
 		glEnable(GL_TEXTURE_2D);
 		glEnable(GL_CULL_FACE);
-		glEnable(GL_BLEND);
+//		glEnable(GL_BLEND);
 		glEnable(GL_DEPTH_TEST);
 		glBlendFunc(GL_ONE, GL_SRC_COLOR);
 		
@@ -150,11 +164,45 @@
 	m_camera->getProjectionMatrix().getTranspose().fillArray(proj);
 }
 
+
 - (void)drawFrame
 {
 	glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	
+	[self renderEarth];
+	[self renderMoon];
+}
+
+- (void)renderMoon
+{
+	glUseProgram(moon_program);
+	
+	glActiveTexture(GL_TEXTURE0);
+	glBindTexture(GL_TEXTURE_2D, moon_texture);
+	
+	static float rotate = 0;
+	
+	glUniformMatrix4fv(glGetUniformLocation(moon_program, "mv"), 1, GL_FALSE, mv);
+	glUniformMatrix4fv(glGetUniformLocation(moon_program, "proj"), 1, GL_FALSE, proj);
+	
+	glUniform1f(glGetUniformLocation(moon_program, "rotate"), rotate);
+	rotate += 0.001;
+	
+	glUniform3f(glGetUniformLocation(moon_program, "LightPosition"), 100.0, 0.0, 0.0);
+	glUniform1i(glGetUniformLocation(moon_program, "MoonTexture"), 0);
+	
+	glVertexAttribPointer(0, 3, GL_FLOAT, 0, 0, vertices);
+	glEnableVertexAttribArray(0);
+	glVertexAttribPointer(tex_index, 2, GL_FLOAT, GL_FALSE, 0, tex_coords);
+	glEnableVertexAttribArray(tex_index);
+	glDrawArrays(GL_TRIANGLES, 0, 6*RES*RES);
+	
+	glUseProgram(0);
+}
+
+- (void)renderEarth
+{	
 	static float rot = 0;
 	
 	glUseProgram(program);
@@ -165,6 +213,8 @@
 	glBindTexture(GL_TEXTURE_2D, night_texture);
 	glActiveTexture(GL_TEXTURE2);
 	glBindTexture(GL_TEXTURE_2D, clouds_texture);
+	glActiveTexture(GL_TEXTURE3);
+	glBindTexture(GL_TEXTURE_2D, earth_bumpmap);
 	glActiveTexture(GL_TEXTURE0);
 		
 	glUniformMatrix4fv(mv_loc, 1, GL_FALSE, mv);
@@ -173,10 +223,11 @@
 	glUniform1f(glGetUniformLocation(program, "rot"), rot);
 	rot += 0.01;
 	
-	glUniform3f(glGetUniformLocation(program, "LightPosition"), 3.0, 0.0, -3.0);
+	glUniform3f(glGetUniformLocation(program, "LightPosition"), 100.0, 0.0, 0.0);
 	glUniform1i(glGetUniformLocation(program, "EarthDay"), 0);
 	glUniform1i(glGetUniformLocation(program, "EarthNight"), 1);
 	glUniform1i(glGetUniformLocation(program, "EarthCloudGloss"), 2);
+	glUniform1i(glGetUniformLocation(program, "BumpMap"), 3);
 
 	glVertexAttribPointer(0, 3, GL_FLOAT, 0, 0, vertices);
 	glEnableVertexAttribArray(0);
@@ -189,9 +240,11 @@
 
 - (void)loadTextures
 {
-	day_texture = [GLESFileLoader loadTextureNamed:@"Day.jpg"];
+	day_texture = [GLESFileLoader loadTextureNamed:@"DayHigh.jpg"];
 	night_texture = [GLESFileLoader loadTextureNamed:@"Night.jpg"];
 	clouds_texture = [GLESFileLoader loadTextureNamed:@"Clouds.jpg"];
+	moon_texture = [GLESFileLoader loadTextureNamed:@"Moontexture.jpg"];
+	earth_bumpmap = [GLESFileLoader loadTextureNamed:@"Earthbumpmap.jpg"];
 }
 
 - (void)dealloc
@@ -199,11 +252,17 @@
 	glDeleteTextures(1, &day_texture);
 	glDeleteTextures(1, &night_texture);
 	glDeleteTextures(1, &clouds_texture);
-	if (program)
-    {
+	glDeleteTextures(1, &moon_texture);
+	glDeleteTextures(1, &earth_bumpmap);
+	if (program) {
         glDeleteProgram(program);
         program = 0;
     }
+	if (moon_program) {
+		glDeleteProgram(moon_program);
+		moon_program = 0;
+	}
+	
 	delete m_camera;
 	free(tex_coords);
 	free(vertices);

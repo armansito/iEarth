@@ -16,16 +16,18 @@ typedef struct OrbitingCamera OrbitingCamera;
 
 @interface EarthRenderer : NSObject {
 	
-	GLuint program, mv_loc, proj_loc;
+	GLuint program, mv_loc, proj_loc, moon_program;
 	GLuint tex_index;
 	
-	GLuint day_texture, night_texture, clouds_texture;
+	GLuint day_texture, night_texture, clouds_texture, moon_texture, earth_bumpmap;
 	GLfloat *vertices; // holds both vertices and normals
 	GLfloat *tex_coords;
 	OrbitingCamera *m_camera;
 	
 	GLfloat mv[16], proj[16];
 }
+
+@property(nonatomic, readonly) OrbitingCamera *camera;
 
 - (id)init;
 - (void)loadTextures;

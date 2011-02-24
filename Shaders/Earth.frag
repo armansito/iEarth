@@ -1,5 +1,5 @@
 //
-//  Shader.fsh
+//  Earth.frag
 //  Earth
 //
 //  Created by Arman Uguray on 2/21/11.

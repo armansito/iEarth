@@ -21,6 +21,7 @@ public:
 	void lookAt(const Vector3 &eye, const Vector3 &look, const Vector3 &up);
 	void setFOV(REAL h);
 	void setClip(REAL nearPlane, REAL farPlane);
+	void setSize(REAL width, REAL height);
 	
 	void lookVectorTranslate(REAL delta);
 	
