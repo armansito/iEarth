@@ -17,20 +17,33 @@
 
 #import "EarthRenderer.h"
 
+@class EAGLView;
+
 @interface EarthViewController : UIViewController
 {
     EAGLContext *context;
-    
+	IBOutlet EAGLView *eaglview;
+    IBOutlet UIToolbar *toolbar;
+	
 	EarthRenderer *earthRenderer;
+	
 	
     BOOL animating;
     NSInteger animationFrameInterval;
     CADisplayLink *displayLink;
 }
 
+@property (nonatomic, retain, readonly) IBOutlet UIToolbar *toolbar;
+@property (nonatomic, retain, readonly) IBOutlet EAGLView *eaglview;
 @property (readonly, nonatomic, getter=isAnimating) BOOL animating;
 @property (nonatomic) NSInteger animationFrameInterval;
 @property (retain, readonly) EarthRenderer *earthRenderer;
+
+- (IBAction)trackEarth;
+- (IBAction)trackMoon;
+
+- (IBAction)speedUp;
+- (IBAction)slowDown;
 
 - (void)startAnimation;
 - (void)stopAnimation;

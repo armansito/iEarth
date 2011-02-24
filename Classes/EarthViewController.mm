@@ -33,7 +33,7 @@ enum {
 
 @implementation EarthViewController
 
-@synthesize animating, context, displayLink, earthRenderer;
+@synthesize animating, context, displayLink, earthRenderer, eaglview, toolbar;
 
 - (void)awakeFromNib
 {
@@ -50,10 +50,14 @@ enum {
         NSLog(@"Failed to set ES context current");
     
 	self.context = aContext;
-	[aContext release];
-	
-    [(EAGLView *)self.view setContext:context];
-    [(EAGLView *)self.view setFramebuffer];
+	[aContext release];	
+}
+
+- (void)viewDidLoad
+{
+	[super viewDidLoad];
+	[eaglview setContext:context];
+    [eaglview setFramebuffer];
     
 	earthRenderer = [EarthRenderer new];
     
@@ -71,6 +75,8 @@ enum {
         [EAGLContext setCurrentContext:nil];
     
     [context release];
+	[eaglview release];
+	[toolbar release];
     
     [super dealloc];
 }
@@ -147,11 +153,11 @@ enum {
 
 - (void)drawFrame
 {
-    [(EAGLView *)self.view setFramebuffer];
+    [eaglview setFramebuffer];
     
 	[earthRenderer drawFrame];
     
-    [(EAGLView *)self.view presentFramebuffer];
+    [eaglview presentFramebuffer];
 }
 
 - (void)didReceiveMemoryWarning
@@ -174,4 +180,28 @@ enum {
 	return YES;
 }
 
+- (IBAction)trackEarth
+{
+	NSLog(@"Track Earth");
+	[earthRenderer trackMoon:NO];
+}
+- (IBAction)trackMoon
+{
+	NSLog(@"Track the Moon");	
+	[earthRenderer trackMoon:YES];
+}
+
+- (IBAction)speedUp
+{
+	[earthRenderer speedUp:YES];
+}
+
+- (IBAction)slowDown
+{
+	[earthRenderer speedUp:NO];
+}
+
 @end
+
+
+

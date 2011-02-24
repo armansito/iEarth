@@ -14,7 +14,7 @@ uniform mat4 proj;
 
 uniform float rotate;
 const float tranz = 100.0;
-const float scale = 0.3;
+const float scale = 1.0;
 
 varying float Diffuse;
 varying vec3  Specular;
@@ -28,8 +28,8 @@ void main()
 	float s = sin(-rotate);
 	mat4 m1 = mat4(scale,  0  ,  0  ,  0  ,
 					 0  ,scale,  0  ,  0  ,
-					 0  ,  0  ,scale,  0 ,
-					 0  ,  0  ,scale*tranz,  1  );
+					 0  ,  0  ,scale,  0  ,
+					 0  ,  0  ,tranz,  1  );
 	mat4 ctm = mat4( c,0,s,0,
 					 0,1,0,0,
 					-s,0,c,0,

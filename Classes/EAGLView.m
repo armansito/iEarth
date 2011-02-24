@@ -44,6 +44,14 @@
 																							  action:@selector(handlePinchGesture:)];
 		[self addGestureRecognizer:pinchRecognizer];
 		[pinchRecognizer release];
+		
+		UITapGestureRecognizer *tap =
+        [[UITapGestureRecognizer alloc] initWithTarget: self
+												action: @selector(tapHandler:)];
+		tap.numberOfTapsRequired = 1;
+		tap.numberOfTouchesRequired = 1;
+		[self addGestureRecognizer:tap];
+		[tap release];
     }
     
     return self;
@@ -173,7 +181,8 @@
     [self deleteFramebuffer];
 }
 
-- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event 
+{
     UITouch *aTouch = [touches anyObject];
     CGPoint loc = [aTouch locationInView:self];
     CGPoint prevloc = [aTouch previousLocationInView:self];
@@ -187,7 +196,8 @@
 	
 }
 
-- (void)handlePinchGesture:(UIGestureRecognizer *)sender {
+- (void)handlePinchGesture:(UIGestureRecognizer *)sender 
+{
     CGFloat factor = [(UIPinchGestureRecognizer *)sender scale];
 	if (factor < 1.f) 
 		factor = -1.f/factor;
@@ -196,4 +206,16 @@
 	[c.earthRenderer zoom:factor];
 }
 
+- (void)tapHandler:(UIGestureRecognizer *)sender
+{
+	EarthViewController *c = ((EarthAppDelegate *)[UIApplication sharedApplication].delegate).viewController;
+	[UIView beginAnimations:nil context:nil];
+	[UIView setAnimationDuration:0.5];
+	[c.toolbar setHidden:!c.toolbar.hidden];
+	[UIView commitAnimations];
+}
+
 @end
+
+
+

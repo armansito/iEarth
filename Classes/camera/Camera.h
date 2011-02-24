@@ -18,6 +18,7 @@ public:
 	
 	Matrix4x4 getProjectionMatrix() const;
 	Matrix4x4 getModelviewMatrix() const;
+	inline Vector4 getEye() const { return eye; }
 	void lookAt(const Vector3 &eye, const Vector3 &look, const Vector3 &up);
 	void setFOV(REAL h);
 	void setClip(REAL nearPlane, REAL farPlane);

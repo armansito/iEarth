@@ -37,6 +37,9 @@
 		BA1FFAD41315B75200FE656A /* Moonbump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFAD21315B75200FE656A /* Moonbump.jpg */; };
 		BA1FFAD51315B75200FE656A /* Moontexture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFAD31315B75200FE656A /* Moontexture.jpg */; };
 		BA1FFC3E1315ED9700FE656A /* Earthbumpmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFC3D1315ED9700FE656A /* Earthbumpmap.jpg */; };
+		BA1FFCA31315F93100FE656A /* Sun.vert in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFC9F1315F91D00FE656A /* Sun.vert */; };
+		BA1FFCA41315F93100FE656A /* Sun.frag in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFCA11315F92500FE656A /* Sun.frag */; };
+		BA1FFCC21315FF6B00FE656A /* sunmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFCC11315FF6B00FE656A /* sunmap.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +86,9 @@
 		BA1FFAD21315B75200FE656A /* Moonbump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Moonbump.jpg; sourceTree = "<group>"; };
 		BA1FFAD31315B75200FE656A /* Moontexture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Moontexture.jpg; sourceTree = "<group>"; };
 		BA1FFC3D1315ED9700FE656A /* Earthbumpmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earthbumpmap.jpg; sourceTree = "<group>"; };
+		BA1FFC9F1315F91D00FE656A /* Sun.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Sun.vert; sourceTree = "<group>"; };
+		BA1FFCA11315F92500FE656A /* Sun.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Sun.frag; sourceTree = "<group>"; };
+		BA1FFCC11315FF6B00FE656A /* sunmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunmap.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,8 @@
 				2514C27910084DCA00A42282 /* Earth.frag */,
 				BA1FFABD1315B46300FE656A /* Moon.vert */,
 				BA1FFABF1315B46C00FE656A /* Moon.frag */,
+				BA1FFC9F1315F91D00FE656A /* Sun.vert */,
+				BA1FFCA11315F92500FE656A /* Sun.frag */,
 			);
 			name = Shaders;
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BA1FFCC11315FF6B00FE656A /* sunmap.jpg */,
 				BA1FFC3D1315ED9700FE656A /* Earthbumpmap.jpg */,
 				BA1FFAD21315B75200FE656A /* Moonbump.jpg */,
 				BA1FFAD31315B75200FE656A /* Moontexture.jpg */,
@@ -264,6 +273,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1FFCA31315F93100FE656A /* Sun.vert in Resources */,
+				BA1FFCA41315F93100FE656A /* Sun.frag in Resources */,
 				BA1FFAC91315B47300FE656A /* Moon.vert in Resources */,
 				BA1FFACA1315B47300FE656A /* Moon.frag in Resources */,
 				2514C27B10084DCA00A42282 /* Earth.frag in Resources */,
@@ -280,6 +291,7 @@
 				BA1FFAD41315B75200FE656A /* Moonbump.jpg in Resources */,
 				BA1FFAD51315B75200FE656A /* Moontexture.jpg in Resources */,
 				BA1FFC3E1315ED9700FE656A /* Earthbumpmap.jpg in Resources */,
+				BA1FFCC21315FF6B00FE656A /* sunmap.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
