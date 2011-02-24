@@ -201,6 +201,11 @@ enum {
 	[earthRenderer speedUp:NO];
 }
 
+- (IBAction)changeDistances
+{
+	[earthRenderer changeDistance];
+}	
+
 @end
 
 

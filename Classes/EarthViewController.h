@@ -45,6 +45,8 @@
 - (IBAction)speedUp;
 - (IBAction)slowDown;
 
+- (IBAction)changeDistances;
+
 - (void)startAnimation;
 - (void)stopAnimation;
 

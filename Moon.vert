@@ -13,7 +13,7 @@ uniform mat4 mv;
 uniform mat4 proj;
 
 uniform float rotate;
-const float tranz = 60.0;
+uniform float tranz;
 const float scale = 0.3;
 
 varying float Diffuse;

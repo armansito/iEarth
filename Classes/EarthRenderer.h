@@ -28,7 +28,7 @@ typedef struct OrbitingCamera OrbitingCamera;
 	
 	BOOL track_moon;
 	
-	CGFloat speed_factor;
+	CGFloat speed_factor, distance_factor;
 	
 	GLfloat mv[16], proj[16];
 }
@@ -41,6 +41,8 @@ typedef struct OrbitingCamera OrbitingCamera;
 - (void)drawFrame;
 
 - (void)speedUp:(BOOL)up;
+- (void)changeDistance;
+
 - (void)trackMoon:(BOOL)track;
 
 - (void)dragX:(CGFloat)x Y:(CGFloat)y;

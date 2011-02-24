@@ -13,6 +13,7 @@
 
 #define RES 50
 #define SUN_DISTANCE 20000.f
+#define MOON_DISTANCE 60.f
 
 @interface EarthRenderer(PrivateMethods)
 
@@ -142,7 +143,7 @@
 		[self loadTextures];
 		track_moon = NO;
 		speed_factor = 1.f;
-		
+		distance_factor = 1.f;
 	}
 	return self;
 }
@@ -155,6 +156,13 @@
 		CGFloat temp = speed_factor * 0.5;
 		if (temp > 0.f) speed_factor = temp;
 	}
+}
+
+- (void)changeDistance
+{
+	if (distance_factor == 1.0) 
+		distance_factor = 0.06;
+	else distance_factor = 1.0;
 }
 
 - (void)trackMoon:(BOOL)track
@@ -202,7 +210,7 @@
 	glUniformMatrix4fv(glGetUniformLocation(sun_program, "proj"), 1, GL_FALSE, proj);
 	
 	glUniform1i(glGetUniformLocation(sun_program, "SunTexture"), 0);
-	glUniform1f(glGetUniformLocation(sun_program, "transx"), SUN_DISTANCE);
+	glUniform1f(glGetUniformLocation(sun_program, "transx"), SUN_DISTANCE*distance_factor);
 	
 	glVertexAttribPointer(0, 3, GL_FLOAT, 0, 0, vertices);
 	glEnableVertexAttribArray(0);
@@ -227,6 +235,7 @@
 	
 	glUniform1f(glGetUniformLocation(moon_program, "rotate"), rotate);
 	rotate += 0.00033333*speed_factor;
+	glUniform1f(glGetUniformLocation(moon_program, "tranz"), MOON_DISTANCE*distance_factor);
 	
 	glUniform3f(glGetUniformLocation(moon_program, "LightPosition"), SUN_DISTANCE, 0.0, 0.0);
 	glUniform1i(glGetUniformLocation(moon_program, "MoonTexture"), 0);
