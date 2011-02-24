@@ -187,7 +187,7 @@
 	glUniformMatrix4fv(glGetUniformLocation(moon_program, "proj"), 1, GL_FALSE, proj);
 	
 	glUniform1f(glGetUniformLocation(moon_program, "rotate"), rotate);
-	rotate += 0.001;
+	rotate += 0.0001;
 	
 	glUniform3f(glGetUniformLocation(moon_program, "LightPosition"), 100.0, 0.0, 0.0);
 	glUniform1i(glGetUniformLocation(moon_program, "MoonTexture"), 0);

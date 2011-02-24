@@ -169,6 +169,7 @@ enum {
 	} else {
 		earthRenderer.camera->setSize(self.view.frame.size.height, self.view.frame.size.width);
 	}
+	[earthRenderer updateMatrices];
 
 	return YES;
 }
