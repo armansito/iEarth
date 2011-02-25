@@ -11,7 +11,7 @@
 #include "OrbitingCamera.h"
 #import "GLESFileLoader.h"
 
-#define RES 50
+#define RES 70
 #define SUN_DISTANCE 20000.f
 #define MOON_DISTANCE 60.f
 
@@ -133,6 +133,7 @@
 		mv_loc = glGetUniformLocation(program, "mv");
 		proj_loc = glGetUniformLocation(program, "proj");
 		tex_index = glGetAttribLocation(program, "TextureCoord");
+		glBindAttribLocation(program, 4, "Tangent");
 		
 		glEnable(GL_TEXTURE_2D);
 		glEnable(GL_CULL_FACE);

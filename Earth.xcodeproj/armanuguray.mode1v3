@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -265,6 +267,7 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>BA1FFDDA1316E48900FE656A</string>
 								<string>BA1FF4D31313AE7E00FE656A</string>
 								<string>2514C27610084DB600A42282</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
@@ -274,13 +277,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
-									<integer>1</integer>
+									<integer>31</integer>
+									<integer>29</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 10}, {216, 725}}</string>
+							<string>{{0, 261}, {216, 725}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -310,14 +313,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>EarthRenderer.mm</string>
+								<string>Earthbumpmap.jpg</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>EarthRenderer.mm</string>
+										<string>Earthbumpmap.jpg</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BA1FFDC91316D02900FE656A</string>
+										<string>BA1FFE64131753B700FE656A</string>
 										<key>history</key>
 										<array>
 											<string>BA1FF4891313AAF100FE656A</string>
@@ -347,29 +348,15 @@
 											<string>BA1FF8B51314E1B800FE656A</string>
 											<string>BA1FF9071314EDB400FE656A</string>
 											<string>BA1FF99A13156A1C00FE656A</string>
-											<string>BA1FFA6213158EBB00FE656A</string>
-											<string>BA1FFA6313158EBB00FE656A</string>
-											<string>BA1FFA6913158EEA00FE656A</string>
 											<string>BA1FFA73131590A200FE656A</string>
-											<string>BA1FFA79131590D000FE656A</string>
 											<string>BA1FFAB51315B3BB00FE656A</string>
-											<string>BA1FFB071315BC3E00FE656A</string>
 											<string>BA1FFBA91315DB5A00FE656A</string>
 											<string>BA1FFBD71315E09800FE656A</string>
 											<string>BA1FFBE11315E0E900FE656A</string>
-											<string>BA1FFC381315EA3E00FE656A</string>
-											<string>BA1FFC391315EA3E00FE656A</string>
-											<string>BA1FFC471315EF0300FE656A</string>
-											<string>BA1FFC481315EF0300FE656A</string>
 											<string>BA1FFC721315F31600FE656A</string>
-											<string>BA1FFCDA1316010600FE656A</string>
 											<string>BA1FFCE21316010600FE656A</string>
-											<string>BA1FFD0913160B2E00FE656A</string>
-											<string>BA1FFD59131611D000FE656A</string>
 											<string>BA1FFD5A131611D000FE656A</string>
 											<string>BA1FFD82131646FF00FE656A</string>
-											<string>BA1FFD83131646FF00FE656A</string>
-											<string>BA1FFD84131646FF00FE656A</string>
 											<string>BA1FFD93131649F600FE656A</string>
 											<string>BA1FFD9913164A1600FE656A</string>
 											<string>BA1FFD9F13164AF900FE656A</string>
@@ -377,8 +364,25 @@
 											<string>BA1FFDC41316D02900FE656A</string>
 											<string>BA1FFDC51316D02900FE656A</string>
 											<string>BA1FFDC61316D02900FE656A</string>
-											<string>BA1FFDC71316D02900FE656A</string>
-											<string>BA1FFDC81316D02900FE656A</string>
+											<string>BA1FFDE9131702E400FE656A</string>
+											<string>BA1FFDEA131702E400FE656A</string>
+											<string>BA1FFDEC131702E400FE656A</string>
+											<string>BA1FFDED131702E400FE656A</string>
+											<string>BA1FFDF5131702FC00FE656A</string>
+											<string>BA1FFE031317050300FE656A</string>
+											<string>BA1FFE44131752DF00FE656A</string>
+											<string>BA1FFE45131752DF00FE656A</string>
+											<string>BA1FFE46131752DF00FE656A</string>
+											<string>BA1FFE47131752DF00FE656A</string>
+											<string>BA1FFE48131752DF00FE656A</string>
+											<string>BA1FFE49131752DF00FE656A</string>
+											<string>BA1FFE4A131752DF00FE656A</string>
+											<string>BA1FFE4C131752DF00FE656A</string>
+											<string>BA1FFE4D131752DF00FE656A</string>
+											<string>BA1FFE4E131752DF00FE656A</string>
+											<string>BA1FFE4F131752DF00FE656A</string>
+											<string>BA1FFE62131753B700FE656A</string>
+											<string>BA1FFE63131753B700FE656A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -576,7 +580,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BA1FFDD41316D02900FE656A</string>
 		<string>BA1FFDD51316D02900FE656A</string>
 		<string>BA1FFDD61316D02900FE656A</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -601,12 +604,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>CelestialBody.cpp</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>

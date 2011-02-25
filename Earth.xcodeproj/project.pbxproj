@@ -40,6 +40,7 @@
 		BA1FFCA31315F93100FE656A /* Sun.vert in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFC9F1315F91D00FE656A /* Sun.vert */; };
 		BA1FFCA41315F93100FE656A /* Sun.frag in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFCA11315F92500FE656A /* Sun.frag */; };
 		BA1FFCC21315FF6B00FE656A /* sunmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFCC11315FF6B00FE656A /* sunmap.jpg */; };
+		BA1FFDDD1316E4AF00FE656A /* CelestialBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA1FFDDC1316E4AF00FE656A /* CelestialBody.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,8 @@
 		BA1FFC9F1315F91D00FE656A /* Sun.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Sun.vert; sourceTree = "<group>"; };
 		BA1FFCA11315F92500FE656A /* Sun.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Sun.frag; sourceTree = "<group>"; };
 		BA1FFCC11315FF6B00FE656A /* sunmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunmap.jpg; sourceTree = "<group>"; };
+		BA1FFDDB1316E48900FE656A /* CelestialBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelestialBody.h; sourceTree = "<group>"; };
+		BA1FFDDC1316E4AF00FE656A /* CelestialBody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CelestialBody.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BA1FFDDA1316E48900FE656A /* celestialbody */,
 				BA1FF4D31313AE7E00FE656A /* camera */,
 				28FD14FC0DC6FC130079059D /* EAGLView.h */,
 				28FD14FD0DC6FC130079059D /* EAGLView.m */,
@@ -224,6 +228,15 @@
 			path = math;
 			sourceTree = "<group>";
 		};
+		BA1FFDDA1316E48900FE656A /* celestialbody */ = {
+			isa = PBXGroup;
+			children = (
+				BA1FFDDB1316E48900FE656A /* CelestialBody.h */,
+				BA1FFDDC1316E4AF00FE656A /* CelestialBody.cpp */,
+			);
+			path = celestialbody;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -311,6 +324,7 @@
 				BA1FF65213149BE800FE656A /* Camera.cpp in Sources */,
 				BA1FF74B1314C17B00FE656A /* OrbitingCamera.cpp in Sources */,
 				BA1FF9C613156D5100FE656A /* GLESFileLoader.m in Sources */,
+				BA1FFDDD1316E4AF00FE656A /* CelestialBody.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

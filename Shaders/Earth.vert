@@ -7,6 +7,7 @@
 //
 
 attribute vec4 position;
+attribute vec3 Tangent;
 attribute vec2 TextureCoord;
 
 uniform sampler2D BumpMap;
@@ -39,8 +40,8 @@ void main()
     vec3 viewVec    = normalize(-ecPosition);
 
     float spec      = clamp(dot(reflectVec, viewVec), 0.0, 1.0);
-    spec            = pow(spec, 3.0);
-    Specular        = vec3 (spec) * vec3 (1.0, 0.941, 0.898) * 0.3;
+    spec            = pow(spec, 8.0);
+    Specular        = vec3 (spec) * vec3 (1.0, 0.941, 0.898);
 
     Diffuse         = max(dot(lightVec, tnorm), 0.0);
 	

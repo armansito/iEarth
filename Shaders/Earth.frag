@@ -22,7 +22,7 @@ void main (void)
 
     mediump vec2 clouds    = texture2D(EarthCloudGloss, TexCoord).rg;
     mediump vec3 daytime   = (texture2D(EarthDay, TexCoord).rgb * Diffuse + 
-                          Specular * clouds.g) * (1.0 - clouds.r) +
+                          Specular * (clouds.g + 0.2)) * (1.0 - clouds.r) +
                           clouds.r * Diffuse;
     mediump vec3 nighttime = texture2D(EarthNight, TexCoord).rgb * 
                          (1.0 - clouds.r) * 2.0;

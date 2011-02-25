@@ -22,17 +22,17 @@
 	};
 	2514C27910084DCA00A42282 /* Earth.frag */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1141, 627}}";
-			sepNavSelRange = "{322, 0}";
-			sepNavVisRange = "{0, 1012}";
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 625}}";
+			sepNavSelRange = "{668, 0}";
+			sepNavVisRange = "{0, 1020}";
 			sepNavWindowFrame = "{{15, 61}, {1274, 812}}";
 		};
 	};
 	2514C27A10084DCA00A42282 /* Earth.vert */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1141, 650}}";
-			sepNavSelRange = "{294, 0}";
-			sepNavVisRange = "{0, 1149}";
+			sepNavSelRange = "{479, 0}";
+			sepNavVisRange = "{3, 1140}";
 		};
 	};
 	28EC4C5611D54ECE0027AA9F /* EarthViewController.h */ = {
@@ -44,9 +44,9 @@
 	};
 	28EC4C5711D54ECE0027AA9F /* EarthViewController.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2280, 2704}}";
+			sepNavIntBoundsRect = "{{0, 0}, {2280, 2678}}";
 			sepNavSelRange = "{4666, 0}";
-			sepNavVisRange = "{3690, 989}";
+			sepNavVisRange = "{3688, 991}";
 		};
 	};
 	28FD14FC0DC6FC130079059D /* EAGLView.h */ = {
@@ -66,7 +66,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = BA1FF2C413132EDA00FE656A /* Earth */;
-		activeSDKPreference = iphoneos4.3;
+		activeSDKPreference = iphonesimulator4.3;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Earth */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Earth */,
@@ -179,6 +179,52 @@
 			BA1FFDC71316D02900FE656A /* PBXTextBookmark */ = BA1FFDC71316D02900FE656A /* PBXTextBookmark */;
 			BA1FFDC81316D02900FE656A /* PBXTextBookmark */ = BA1FFDC81316D02900FE656A /* PBXTextBookmark */;
 			BA1FFDC91316D02900FE656A /* PBXTextBookmark */ = BA1FFDC91316D02900FE656A /* PBXTextBookmark */;
+			BA1FFDE3131702D900FE656A /* PBXTextBookmark */ = BA1FFDE3131702D900FE656A /* PBXTextBookmark */;
+			BA1FFDE4131702D900FE656A /* PBXTextBookmark */ = BA1FFDE4131702D900FE656A /* PBXTextBookmark */;
+			BA1FFDE5131702D900FE656A /* PBXTextBookmark */ = BA1FFDE5131702D900FE656A /* PBXTextBookmark */;
+			BA1FFDE8131702E400FE656A /* PBXTextBookmark */ = BA1FFDE8131702E400FE656A /* PBXTextBookmark */;
+			BA1FFDE9131702E400FE656A /* PBXTextBookmark */ = BA1FFDE9131702E400FE656A /* PBXTextBookmark */;
+			BA1FFDEA131702E400FE656A /* PBXTextBookmark */ = BA1FFDEA131702E400FE656A /* PBXTextBookmark */;
+			BA1FFDEB131702E400FE656A /* PBXTextBookmark */ = BA1FFDEB131702E400FE656A /* PBXTextBookmark */;
+			BA1FFDEC131702E400FE656A /* PBXTextBookmark */ = BA1FFDEC131702E400FE656A /* PBXTextBookmark */;
+			BA1FFDED131702E400FE656A /* PBXTextBookmark */ = BA1FFDED131702E400FE656A /* PBXTextBookmark */;
+			BA1FFDEE131702E400FE656A /* PBXTextBookmark */ = BA1FFDEE131702E400FE656A /* PBXTextBookmark */;
+			BA1FFDEF131702E400FE656A /* XCBuildMessageTextBookmark */ = BA1FFDEF131702E400FE656A /* XCBuildMessageTextBookmark */;
+			BA1FFDF0131702E400FE656A /* PBXTextBookmark */ = BA1FFDF0131702E400FE656A /* PBXTextBookmark */;
+			BA1FFDF5131702FC00FE656A /* PBXTextBookmark */ = BA1FFDF5131702FC00FE656A /* PBXTextBookmark */;
+			BA1FFDF6131702FC00FE656A /* PBXTextBookmark */ = BA1FFDF6131702FC00FE656A /* PBXTextBookmark */;
+			BA1FFDF7131702FC00FE656A /* PBXTextBookmark */ = BA1FFDF7131702FC00FE656A /* PBXTextBookmark */;
+			BA1FFDFC1317038C00FE656A /* PBXTextBookmark */ = BA1FFDFC1317038C00FE656A /* PBXTextBookmark */;
+			BA1FFDFD1317047300FE656A /* PBXTextBookmark */ = BA1FFDFD1317047300FE656A /* PBXTextBookmark */;
+			BA1FFE00131704C200FE656A /* PBXTextBookmark */ = BA1FFE00131704C200FE656A /* PBXTextBookmark */;
+			BA1FFE031317050300FE656A /* PBXTextBookmark */ = BA1FFE031317050300FE656A /* PBXTextBookmark */;
+			BA1FFE041317050300FE656A /* PBXTextBookmark */ = BA1FFE041317050300FE656A /* PBXTextBookmark */;
+			BA1FFE051317050300FE656A /* PBXTextBookmark */ = BA1FFE051317050300FE656A /* PBXTextBookmark */;
+			BA1FFE081317053300FE656A /* PBXTextBookmark */ = BA1FFE081317053300FE656A /* PBXTextBookmark */;
+			BA1FFE0B1317055100FE656A /* PBXTextBookmark */ = BA1FFE0B1317055100FE656A /* PBXTextBookmark */;
+			BA1FFE0E1317057100FE656A /* PBXTextBookmark */ = BA1FFE0E1317057100FE656A /* PBXTextBookmark */;
+			BA1FFE111317057800FE656A /* PBXTextBookmark */ = BA1FFE111317057800FE656A /* PBXTextBookmark */;
+			BA1FFE44131752DF00FE656A /* PBXBookmark */ = BA1FFE44131752DF00FE656A /* PBXBookmark */;
+			BA1FFE45131752DF00FE656A /* PBXBookmark */ = BA1FFE45131752DF00FE656A /* PBXBookmark */;
+			BA1FFE46131752DF00FE656A /* PBXBookmark */ = BA1FFE46131752DF00FE656A /* PBXBookmark */;
+			BA1FFE47131752DF00FE656A /* PBXTextBookmark */ = BA1FFE47131752DF00FE656A /* PBXTextBookmark */;
+			BA1FFE48131752DF00FE656A /* PBXBookmark */ = BA1FFE48131752DF00FE656A /* PBXBookmark */;
+			BA1FFE49131752DF00FE656A /* PBXBookmark */ = BA1FFE49131752DF00FE656A /* PBXBookmark */;
+			BA1FFE4A131752DF00FE656A /* PBXBookmark */ = BA1FFE4A131752DF00FE656A /* PBXBookmark */;
+			BA1FFE4B131752DF00FE656A /* PBXBookmark */ = BA1FFE4B131752DF00FE656A /* PBXBookmark */;
+			BA1FFE4C131752DF00FE656A /* PBXBookmark */ = BA1FFE4C131752DF00FE656A /* PBXBookmark */;
+			BA1FFE4D131752DF00FE656A /* PBXTextBookmark */ = BA1FFE4D131752DF00FE656A /* PBXTextBookmark */;
+			BA1FFE4E131752DF00FE656A /* PBXTextBookmark */ = BA1FFE4E131752DF00FE656A /* PBXTextBookmark */;
+			BA1FFE4F131752DF00FE656A /* PBXTextBookmark */ = BA1FFE4F131752DF00FE656A /* PBXTextBookmark */;
+			BA1FFE50131752DF00FE656A /* PBXTextBookmark */ = BA1FFE50131752DF00FE656A /* PBXTextBookmark */;
+			BA1FFE51131752DF00FE656A /* PBXTextBookmark */ = BA1FFE51131752DF00FE656A /* PBXTextBookmark */;
+			BA1FFE56131752FE00FE656A /* PBXTextBookmark */ = BA1FFE56131752FE00FE656A /* PBXTextBookmark */;
+			BA1FFE5B1317533D00FE656A /* PBXTextBookmark */ = BA1FFE5B1317533D00FE656A /* PBXTextBookmark */;
+			BA1FFE5E1317535700FE656A /* PBXTextBookmark */ = BA1FFE5E1317535700FE656A /* PBXTextBookmark */;
+			BA1FFE611317536F00FE656A /* PBXTextBookmark */ = BA1FFE611317536F00FE656A /* PBXTextBookmark */;
+			BA1FFE62131753B700FE656A /* PBXTextBookmark */ = BA1FFE62131753B700FE656A /* PBXTextBookmark */;
+			BA1FFE63131753B700FE656A /* PBXBookmark */ = BA1FFE63131753B700FE656A /* PBXBookmark */;
+			BA1FFE64131753B700FE656A /* PBXBookmark */ = BA1FFE64131753B700FE656A /* PBXBookmark */;
 		};
 		sourceControlManager = BA1FF2D213132F0F00FE656A /* Source Control */;
 		userBuildSettings = {
@@ -253,9 +299,9 @@
 	};
 	BA1FF2DC131333B200FE656A /* EarthRenderer.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1141, 4368}}";
-			sepNavSelRange = "{3639, 0}";
-			sepNavVisRange = "{3293, 815}";
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 4355}}";
+			sepNavSelRange = "{3451, 0}";
+			sepNavVisRange = "{4125, 1197}";
 		};
 	};
 	BA1FF4891313AAF100FE656A /* PBXTextBookmark */ = {
@@ -274,6 +320,11 @@
 		name = gl.h;
 		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 12064}}";
+			sepNavSelRange = "{17906, 49}";
+			sepNavVisRange = "{0, 2158}";
+		};
 	};
 	BA1FF48E1313AAF100FE656A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -380,8 +431,8 @@
 	};
 	BA1FF65013149BE800FE656A /* Camera.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1141, 602}}";
-			sepNavSelRange = "{168, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 625}}";
+			sepNavSelRange = "{0, 133}";
 			sepNavVisRange = "{0, 755}";
 		};
 	};
@@ -510,6 +561,11 @@
 		name = gl.h;
 		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 9451}}";
+			sepNavSelRange = "{13313, 49}";
+			sepNavVisRange = "{11964, 1788}";
+		};
 	};
 	BA1FF8B51314E1B800FE656A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -550,16 +606,16 @@
 	};
 	BA1FF9C413156D5100FE656A /* GLESFileLoader.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 502}}";
-			sepNavSelRange = "{429, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 625}}";
+			sepNavSelRange = "{292, 0}";
 			sepNavVisRange = "{0, 429}";
 		};
 	};
 	BA1FF9C513156D5100FE656A /* GLESFileLoader.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 2249}}";
-			sepNavSelRange = "{3160, 0}";
-			sepNavVisRange = "{2272, 1199}";
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 2171}}";
+			sepNavSelRange = "{395, 0}";
+			sepNavVisRange = "{135, 1686}";
 		};
 	};
 	BA1FFA6213158EBB00FE656A /* PBXBookmark */ = {
@@ -589,7 +645,7 @@
 		fRef = BA1FF9C513156D5100FE656A /* GLESFileLoader.m */;
 		name = "GLESFileLoader.m: 115";
 		rLen = 0;
-		rLoc = 3160;
+		rLoc = 3159;
 		rType = 0;
 		vrLen = 1199;
 		vrLoc = 2272;
@@ -724,7 +780,7 @@
 		fRef = 2514C27A10084DCA00A42282 /* Earth.vert */;
 		name = "Earth.vert: 18";
 		rLen = 0;
-		rLoc = 294;
+		rLoc = 318;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 0;
@@ -934,7 +990,7 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 159";
 		rLen = 0;
-		rLoc = 3809;
+		rLoc = 3856;
 		rType = 0;
 		vrLen = 827;
 		vrLoc = 3345;
@@ -944,9 +1000,422 @@
 		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
 		name = "EarthRenderer.mm: 146";
 		rLen = 0;
-		rLoc = 3639;
+		rLoc = 3686;
 		rType = 0;
 		vrLen = 815;
 		vrLoc = 3293;
+	};
+	BA1FFDDB1316E48900FE656A /* CelestialBody.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 625}}";
+			sepNavSelRange = "{353, 0}";
+			sepNavVisRange = "{0, 488}";
+		};
+	};
+	BA1FFDDC1316E4AF00FE656A /* CelestialBody.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 453}}";
+			sepNavSelRange = "{224, 0}";
+			sepNavVisRange = "{0, 342}";
+		};
+	};
+	BA1FFDE3131702D900FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FFDDB1316E48900FE656A /* CelestialBody.h */;
+		name = "CelestialBody.h: 21";
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 488;
+		vrLoc = 0;
+	};
+	BA1FFDE4131702D900FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FFDDC1316E4AF00FE656A /* CelestialBody.cpp */;
+		name = "CelestialBody.cpp: 15";
+		rLen = 0;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 340;
+		vrLoc = 0;
+	};
+	BA1FFDE5131702D900FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FFDDC1316E4AF00FE656A /* CelestialBody.cpp */;
+		name = "CelestialBody.cpp: 15";
+		rLen = 0;
+		rLoc = 224;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 0;
+	};
+	BA1FFDE8131702E400FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 146";
+		rLen = 0;
+		rLoc = 3686;
+		rType = 0;
+		vrLen = 878;
+		vrLoc = 3293;
+	};
+	BA1FFDE9131702E400FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF65013149BE800FE656A /* Camera.h */;
+		name = "Camera.h: 1";
+		rLen = 133;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 755;
+		vrLoc = 0;
+	};
+	BA1FFDEA131702E400FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FFDDB1316E48900FE656A /* CelestialBody.h */;
+		name = "CelestialBody.h: 21";
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 488;
+		vrLoc = 0;
+	};
+	BA1FFDEB131702E400FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF9C413156D5100FE656A /* GLESFileLoader.h */;
+		name = "GLESFileLoader.h: 15";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 0;
+	};
+	BA1FFDEC131702E400FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF48D1313AAF100FE656A /* gl.h */;
+		name = "gl.h: 485";
+		rLen = 49;
+		rLoc = 17906;
+		rType = 0;
+		vrLen = 2158;
+		vrLoc = 0;
+	};
+	BA1FFDED131702E400FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF89B1314DAA800FE656A /* gl.h */;
+		name = "gl.h: 353";
+		rLen = 49;
+		rLoc = 13313;
+		rType = 0;
+		vrLen = 1788;
+		vrLoc = 11964;
+	};
+	BA1FFDEE131702E400FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF9C513156D5100FE656A /* GLESFileLoader.m */;
+		name = "GLESFileLoader.m: 38";
+		rLen = 0;
+		rLoc = 1294;
+		rType = 0;
+		vrLen = 1701;
+		vrLoc = 135;
+	};
+	BA1FFDEF131702E400FE656A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'ctm' was not declared in this scope";
+		fRef = BA1FFDDC1316E4AF00FE656A /* CelestialBody.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 14;
+		rType = 1;
+	};
+	BA1FFDF0131702E400FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FFDDC1316E4AF00FE656A /* CelestialBody.cpp */;
+		name = "CelestialBody.cpp: 11";
+		rLen = 0;
+		rLoc = 171;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 0;
+	};
+	BA1FFDF5131702FC00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FFDDC1316E4AF00FE656A /* CelestialBody.cpp */;
+		name = "CelestialBody.cpp: 11";
+		rLen = 0;
+		rLoc = 171;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 0;
+	};
+	BA1FFDF6131702FC00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF9C513156D5100FE656A /* GLESFileLoader.m */;
+		name = "GLESFileLoader.m: 38";
+		rLen = 0;
+		rLoc = 1294;
+		rType = 0;
+		vrLen = 1701;
+		vrLoc = 135;
+	};
+	BA1FFDF7131702FC00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF9C513156D5100FE656A /* GLESFileLoader.m */;
+		name = "GLESFileLoader.m: 38";
+		rLen = 0;
+		rLoc = 1294;
+		rType = 0;
+		vrLen = 1551;
+		vrLoc = 135;
+	};
+	BA1FFDFC1317038C00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF9C513156D5100FE656A /* GLESFileLoader.m */;
+		name = "GLESFileLoader.m: 39";
+		rLen = 0;
+		rLoc = 1362;
+		rType = 0;
+		vrLen = 1565;
+		vrLoc = 135;
+	};
+	BA1FFDFD1317047300FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF9C513156D5100FE656A /* GLESFileLoader.m */;
+		name = "GLESFileLoader.m: 39";
+		rLen = 0;
+		rLoc = 1362;
+		rType = 0;
+		vrLen = 1686;
+		vrLoc = 135;
+	};
+	BA1FFE00131704C200FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF9C513156D5100FE656A /* GLESFileLoader.m */;
+		name = "GLESFileLoader.m: 38";
+		rLen = 0;
+		rLoc = 1294;
+		rType = 0;
+		vrLen = 1552;
+		vrLoc = 135;
+	};
+	BA1FFE031317050300FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF9C513156D5100FE656A /* GLESFileLoader.m */;
+		name = "GLESFileLoader.m: 22";
+		rLen = 0;
+		rLoc = 395;
+		rType = 0;
+		vrLen = 1686;
+		vrLoc = 135;
+	};
+	BA1FFE041317050300FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 146";
+		rLen = 0;
+		rLoc = 3686;
+		rType = 0;
+		vrLen = 878;
+		vrLoc = 3293;
+	};
+	BA1FFE051317050300FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 14";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 878;
+		vrLoc = 0;
+	};
+	BA1FFE081317053300FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 14";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 878;
+		vrLoc = 0;
+	};
+	BA1FFE0B1317055100FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 14";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	BA1FFE0E1317057100FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 14";
+		rLen = 0;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 0;
+	};
+	BA1FFE111317057800FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 14";
+		rLen = 0;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 0;
+	};
+	BA1FFE44131752DF00FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1FFCC11315FF6B00FE656A /* sunmap.jpg */;
+	};
+	BA1FFE45131752DF00FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1FFA5413158E6500FE656A /* DayHigh.jpg */;
+	};
+	BA1FFE46131752DF00FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1FF83D1314D5D400FE656A /* Day.jpg */;
+	};
+	BA1FFE47131752DF00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FFABD1315B46300FE656A /* Moon.vert */;
+		name = "Moon.vert: 23";
+		rLen = 0;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 1127;
+		vrLoc = 128;
+	};
+	BA1FFE48131752DF00FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1FFAD31315B75200FE656A /* Moontexture.jpg */;
+	};
+	BA1FFE49131752DF00FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1FF83C1314D5D400FE656A /* Clouds.jpg */;
+	};
+	BA1FFE4A131752DF00FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1FFAD21315B75200FE656A /* Moonbump.jpg */;
+	};
+	BA1FFE4B131752DF00FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1FFC3D1315ED9700FE656A /* Earthbumpmap.jpg */;
+	};
+	BA1FFE4C131752DF00FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1FFA701315901600FE656A /* Earthbump.jpg */;
+	};
+	BA1FFE4D131752DF00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF9C413156D5100FE656A /* GLESFileLoader.h */;
+		name = "GLESFileLoader.h: 15";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 0;
+	};
+	BA1FFE4E131752DF00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 293";
+		rLen = 0;
+		rLoc = 7636;
+		rType = 0;
+		vrLen = 1688;
+		vrLoc = 6504;
+	};
+	BA1FFE4F131752DF00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27A10084DCA00A42282 /* Earth.vert */;
+		name = "Earth.vert: 30";
+		rLen = 0;
+		rLoc = 503;
+		rType = 0;
+		vrLen = 1140;
+		vrLoc = 3;
+	};
+	BA1FFE50131752DF00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 14";
+		rLen = 0;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 0;
+	};
+	BA1FFE51131752DF00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 25";
+		rLen = 0;
+		rLoc = 669;
+		rType = 0;
+		vrLen = 1021;
+		vrLoc = 0;
+	};
+	BA1FFE56131752FE00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 28";
+		rLen = 0;
+		rLoc = 854;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 0;
+	};
+	BA1FFE5B1317533D00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 25";
+		rLen = 0;
+		rLoc = 669;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 0;
+	};
+	BA1FFE5E1317535700FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 25";
+		rLen = 0;
+		rLoc = 668;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 0;
+	};
+	BA1FFE611317536F00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 24";
+		rLen = 0;
+		rLoc = 594;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 0;
+	};
+	BA1FFE62131753B700FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 25";
+		rLen = 0;
+		rLoc = 668;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 0;
+	};
+	BA1FFE63131753B700FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1FFC3D1315ED9700FE656A /* Earthbumpmap.jpg */;
+	};
+	BA1FFE64131753B700FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1FFC3D1315ED9700FE656A /* Earthbumpmap.jpg */;
 	};
 }
