@@ -23,8 +23,8 @@
 	2514C27910084DCA00A42282 /* Earth.frag */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1141, 728}}";
-			sepNavSelRange = "{1368, 0}";
-			sepNavVisRange = "{132, 1402}";
+			sepNavSelRange = "{725, 0}";
+			sepNavVisRange = "{132, 1396}";
 			sepNavWindowFrame = "{{15, 61}, {1274, 812}}";
 		};
 	};
@@ -44,7 +44,7 @@
 	};
 	28EC4C5711D54ECE0027AA9F /* EarthViewController.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2280, 2704}}";
+			sepNavIntBoundsRect = "{{0, 0}, {2280, 2678}}";
 			sepNavSelRange = "{4666, 0}";
 			sepNavVisRange = "{3688, 991}";
 		};
@@ -66,7 +66,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = BA1FF2C413132EDA00FE656A /* Earth */;
-		activeSDKPreference = iphoneos4.3;
+		activeSDKPreference = iphonesimulator4.3;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Earth */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Earth */,
@@ -124,6 +124,48 @@
 			PBXWorkspaceStateSaveDate = 320261701;
 		};
 		perUserProjectItems = {
+			BA1F000013185DCD00FE656A /* PBXTextBookmark */ = BA1F000013185DCD00FE656A /* PBXTextBookmark */;
+			BA1F000313185E0900FE656A /* PBXTextBookmark */ = BA1F000313185E0900FE656A /* PBXTextBookmark */;
+			BA1F000613185EE200FE656A /* PBXTextBookmark */ = BA1F000613185EE200FE656A /* PBXTextBookmark */;
+			BA1F000713185EE200FE656A /* PBXTextBookmark */ = BA1F000713185EE200FE656A /* PBXTextBookmark */;
+			BA1F000813185EE200FE656A /* PBXTextBookmark */ = BA1F000813185EE200FE656A /* PBXTextBookmark */;
+			BA1F000B13185F1300FE656A /* PBXTextBookmark */ = BA1F000B13185F1300FE656A /* PBXTextBookmark */;
+			BA1F000E13185F3E00FE656A /* PBXTextBookmark */ = BA1F000E13185F3E00FE656A /* PBXTextBookmark */;
+			BA1F001113185F6C00FE656A /* PBXTextBookmark */ = BA1F001113185F6C00FE656A /* PBXTextBookmark */;
+			BA1F001213185F6C00FE656A /* PBXTextBookmark */ = BA1F001213185F6C00FE656A /* PBXTextBookmark */;
+			BA1F001313185F6C00FE656A /* PBXTextBookmark */ = BA1F001313185F6C00FE656A /* PBXTextBookmark */;
+			BA1F0016131861AC00FE656A /* PBXTextBookmark */ = BA1F0016131861AC00FE656A /* PBXTextBookmark */;
+			BA1F0019131861BD00FE656A /* PBXTextBookmark */ = BA1F0019131861BD00FE656A /* PBXTextBookmark */;
+			BA1F001C131861D000FE656A /* PBXTextBookmark */ = BA1F001C131861D000FE656A /* PBXTextBookmark */;
+			BA1F001F131861F800FE656A /* PBXTextBookmark */ = BA1F001F131861F800FE656A /* PBXTextBookmark */;
+			BA1F00221318621400FE656A /* PBXTextBookmark */ = BA1F00221318621400FE656A /* PBXTextBookmark */;
+			BA1F00231318621400FE656A /* PBXTextBookmark */ = BA1F00231318621400FE656A /* PBXTextBookmark */;
+			BA1F00241318621400FE656A /* PBXTextBookmark */ = BA1F00241318621400FE656A /* PBXTextBookmark */;
+			BA1F00251318623900FE656A /* PBXTextBookmark */ = BA1F00251318623900FE656A /* PBXTextBookmark */;
+			BA1F002A1318629100FE656A /* PBXTextBookmark */ = BA1F002A1318629100FE656A /* PBXTextBookmark */;
+			BA1F002F131862EC00FE656A /* PBXTextBookmark */ = BA1F002F131862EC00FE656A /* PBXTextBookmark */;
+			BA1F00321318632D00FE656A /* PBXBookmark */ = BA1F00321318632D00FE656A /* PBXBookmark */;
+			BA1F00331318632D00FE656A /* PBXBookmark */ = BA1F00331318632D00FE656A /* PBXBookmark */;
+			BA1F00341318632D00FE656A /* PBXBookmark */ = BA1F00341318632D00FE656A /* PBXBookmark */;
+			BA1F00351318632D00FE656A /* PBXTextBookmark */ = BA1F00351318632D00FE656A /* PBXTextBookmark */;
+			BA1F00361318632D00FE656A /* PBXTextBookmark */ = BA1F00361318632D00FE656A /* PBXTextBookmark */;
+			BA1F00391318637800FE656A /* PBXTextBookmark */ = BA1F00391318637800FE656A /* PBXTextBookmark */;
+			BA1F003A1318637800FE656A /* PBXTextBookmark */ = BA1F003A1318637800FE656A /* PBXTextBookmark */;
+			BA1F003B1318637800FE656A /* PBXTextBookmark */ = BA1F003B1318637800FE656A /* PBXTextBookmark */;
+			BA1F003E131865BC00FE656A /* PBXTextBookmark */ = BA1F003E131865BC00FE656A /* PBXTextBookmark */;
+			BA1F0041131865DC00FE656A /* PBXTextBookmark */ = BA1F0041131865DC00FE656A /* PBXTextBookmark */;
+			BA1F0044131865EC00FE656A /* PBXTextBookmark */ = BA1F0044131865EC00FE656A /* PBXTextBookmark */;
+			BA1F00471318660500FE656A /* PBXTextBookmark */ = BA1F00471318660500FE656A /* PBXTextBookmark */;
+			BA1F00481318660500FE656A /* PBXTextBookmark */ = BA1F00481318660500FE656A /* PBXTextBookmark */;
+			BA1F00491318660500FE656A /* PBXTextBookmark */ = BA1F00491318660500FE656A /* PBXTextBookmark */;
+			BA1F004C1318672D00FE656A /* PBXTextBookmark */ = BA1F004C1318672D00FE656A /* PBXTextBookmark */;
+			BA1F004D1318672D00FE656A /* PBXTextBookmark */ = BA1F004D1318672D00FE656A /* PBXTextBookmark */;
+			BA1F004E1318672D00FE656A /* PBXTextBookmark */ = BA1F004E1318672D00FE656A /* PBXTextBookmark */;
+			BA1F0053131867AA00FE656A /* PBXBookmark */ = BA1F0053131867AA00FE656A /* PBXBookmark */;
+			BA1F0054131867AA00FE656A /* PBXBookmark */ = BA1F0054131867AA00FE656A /* PBXBookmark */;
+			BA1F0055131867AA00FE656A /* PBXTextBookmark */ = BA1F0055131867AA00FE656A /* PBXTextBookmark */;
+			BA1F0056131867AA00FE656A /* PBXTextBookmark */ = BA1F0056131867AA00FE656A /* PBXTextBookmark */;
+			BA1F0057131867AA00FE656A /* PBXTextBookmark */ = BA1F0057131867AA00FE656A /* PBXTextBookmark */;
 			BA1FF4891313AAF100FE656A = BA1FF4891313AAF100FE656A /* PBXTextBookmark */;
 			BA1FF48E1313AAF100FE656A = BA1FF48E1313AAF100FE656A /* PBXTextBookmark */;
 			BA1FF4901313AAF100FE656A = BA1FF4901313AAF100FE656A /* PBXTextBookmark */;
@@ -415,6 +457,11 @@
 			BA1FFFEB1317AA2900FE656A /* PBXTextBookmark */ = BA1FFFEB1317AA2900FE656A /* PBXTextBookmark */;
 			BA1FFFEC1317AA2900FE656A /* PBXTextBookmark */ = BA1FFFEC1317AA2900FE656A /* PBXTextBookmark */;
 			BA1FFFED1317AA2900FE656A /* PBXTextBookmark */ = BA1FFFED1317AA2900FE656A /* PBXTextBookmark */;
+			BA1FFFF313185D5000FE656A /* PBXTextBookmark */ = BA1FFFF313185D5000FE656A /* PBXTextBookmark */;
+			BA1FFFF613185D6900FE656A /* PBXTextBookmark */ = BA1FFFF613185D6900FE656A /* PBXTextBookmark */;
+			BA1FFFF913185D7400FE656A /* PBXTextBookmark */ = BA1FFFF913185D7400FE656A /* PBXTextBookmark */;
+			BA1FFFFC13185D8600FE656A /* PBXTextBookmark */ = BA1FFFFC13185D8600FE656A /* PBXTextBookmark */;
+			BA1FFFFF13185D9600FE656A /* PBXTextBookmark */ = BA1FFFFF13185D9600FE656A /* PBXTextBookmark */;
 		};
 		sourceControlManager = BA1FF2D213132F0F00FE656A /* Source Control */;
 		userBuildSettings = {
@@ -433,6 +480,396 @@
 			sepNavSelRange = "{307, 0}";
 			sepNavVisRange = "{0, 308}";
 		};
+	};
+	BA1F000013185DCD00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 34";
+		rLen = 0;
+		rLoc = 782;
+		rType = 0;
+		vrLen = 1403;
+		vrLoc = 132;
+	};
+	BA1F000313185E0900FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 33";
+		rLen = 0;
+		rLoc = 725;
+		rType = 0;
+		vrLen = 1403;
+		vrLoc = 132;
+	};
+	BA1F000613185EE200FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 20";
+		rLen = 0;
+		rLoc = 366;
+		rType = 0;
+		vrLen = 1403;
+		vrLoc = 132;
+	};
+	BA1F000713185EE200FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 332";
+		rLen = 0;
+		rLoc = 8691;
+		rType = 0;
+		vrLen = 1487;
+		vrLoc = 8177;
+	};
+	BA1F000813185EE200FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 334";
+		rLen = 0;
+		rLoc = 8819;
+		rType = 0;
+		vrLen = 1480;
+		vrLoc = 8177;
+	};
+	BA1F000B13185F1300FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 334";
+		rLen = 0;
+		rLoc = 8819;
+		rType = 0;
+		vrLen = 1484;
+		vrLoc = 8177;
+	};
+	BA1F000E13185F3E00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 334";
+		rLen = 0;
+		rLoc = 8819;
+		rType = 0;
+		vrLen = 1480;
+		vrLoc = 8177;
+	};
+	BA1F001113185F6C00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 334";
+		rLen = 0;
+		rLoc = 8819;
+		rType = 0;
+		vrLen = 1483;
+		vrLoc = 8177;
+	};
+	BA1F001213185F6C00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 20";
+		rLen = 0;
+		rLoc = 366;
+		rType = 0;
+		vrLen = 1403;
+		vrLoc = 132;
+	};
+	BA1F001313185F6C00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 33";
+		rLen = 0;
+		rLoc = 723;
+		rType = 0;
+		vrLen = 1394;
+		vrLoc = 132;
+	};
+	BA1F0016131861AC00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 34";
+		rLen = 0;
+		rLoc = 785;
+		rType = 0;
+		vrLen = 1390;
+		vrLoc = 132;
+	};
+	BA1F0019131861BD00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 34";
+		rLen = 0;
+		rLoc = 775;
+		rType = 0;
+		vrLen = 1390;
+		vrLoc = 132;
+	};
+	BA1F001C131861D000FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 34";
+		rLen = 0;
+		rLoc = 785;
+		rType = 0;
+		vrLen = 1388;
+		vrLoc = 132;
+	};
+	BA1F001F131861F800FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 34";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 1396;
+		vrLoc = 132;
+	};
+	BA1F00221318621400FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 17";
+		rLen = 0;
+		rLoc = 337;
+		rType = 0;
+		vrLen = 1398;
+		vrLoc = 132;
+	};
+	BA1F00231318621400FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* EarthViewController.mm */;
+		name = "EarthViewController.mm: 206";
+		rLen = 0;
+		rLoc = 4666;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 3688;
+	};
+	BA1F00241318621400FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 334";
+		rLen = 0;
+		rLoc = 8819;
+		rType = 0;
+		vrLen = 1484;
+		vrLoc = 8177;
+	};
+	BA1F00251318623900FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 334";
+		rLen = 0;
+		rLoc = 8819;
+		rType = 0;
+		vrLen = 1483;
+		vrLoc = 8177;
+	};
+	BA1F002A1318629100FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 334";
+		rLen = 0;
+		rLoc = 8819;
+		rType = 0;
+		vrLen = 1487;
+		vrLoc = 8177;
+	};
+	BA1F002F131862EC00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 334";
+		rLen = 0;
+		rLoc = 8819;
+		rType = 0;
+		vrLen = 1480;
+		vrLoc = 8177;
+	};
+	BA1F00321318632D00FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1F00261318628900FE656A /* EarthAtmos.jpg */;
+	};
+	BA1F00331318632D00FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1FF83D1314D5D400FE656A /* Day.jpg */;
+	};
+	BA1F00341318632D00FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1FFA5413158E6500FE656A /* DayHigh.jpg */;
+	};
+	BA1F00351318632D00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 334";
+		rLen = 0;
+		rLoc = 8819;
+		rType = 0;
+		vrLen = 1487;
+		vrLoc = 8177;
+	};
+	BA1F00361318632D00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 352";
+		rLen = 0;
+		rLoc = 9418;
+		rType = 0;
+		vrLen = 1484;
+		vrLoc = 8177;
+	};
+	BA1F00391318637800FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 352";
+		rLen = 0;
+		rLoc = 9418;
+		rType = 0;
+		vrLen = 1487;
+		vrLoc = 8177;
+	};
+	BA1F003A1318637800FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 17";
+		rLen = 0;
+		rLoc = 337;
+		rType = 0;
+		vrLen = 1398;
+		vrLoc = 132;
+	};
+	BA1F003B1318637800FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 34";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 1390;
+		vrLoc = 132;
+	};
+	BA1F003E131865BC00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 34";
+		rLen = 6;
+		rLoc = 786;
+		rType = 0;
+		vrLen = 1401;
+		vrLoc = 132;
+	};
+	BA1F0041131865DC00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 34";
+		rLen = 0;
+		rLoc = 780;
+		rType = 0;
+		vrLen = 1397;
+		vrLoc = 132;
+	};
+	BA1F0044131865EC00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 33";
+		rLen = 0;
+		rLoc = 725;
+		rType = 0;
+		vrLen = 1397;
+		vrLoc = 132;
+	};
+	BA1F00471318660500FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 33";
+		rLen = 0;
+		rLoc = 725;
+		rType = 0;
+		vrLen = 1399;
+		vrLoc = 132;
+	};
+	BA1F00481318660500FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 352";
+		rLen = 0;
+		rLoc = 9418;
+		rType = 0;
+		vrLen = 1487;
+		vrLoc = 8177;
+	};
+	BA1F00491318660500FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 334";
+		rLen = 0;
+		rLoc = 8819;
+		rType = 0;
+		vrLen = 1487;
+		vrLoc = 8177;
+	};
+	BA1F004C1318672D00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 334";
+		rLen = 0;
+		rLoc = 8819;
+		rType = 0;
+		vrLen = 1490;
+		vrLoc = 8177;
+	};
+	BA1F004D1318672D00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 33";
+		rLen = 0;
+		rLoc = 725;
+		rType = 0;
+		vrLen = 1399;
+		vrLoc = 132;
+	};
+	BA1F004E1318672D00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 34";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 1396;
+		vrLoc = 132;
+	};
+	BA1F0053131867AA00FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1FFA5413158E6500FE656A /* DayHigh.jpg */;
+	};
+	BA1F0054131867AA00FE656A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BA1F00261318628900FE656A /* EarthAtmos.jpg */;
+	};
+	BA1F0055131867AA00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */;
+		name = "EarthRenderer.mm: 334";
+		rLen = 0;
+		rLoc = 8819;
+		rType = 0;
+		vrLen = 1487;
+		vrLoc = 8177;
+	};
+	BA1F0056131867AA00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 34";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 1398;
+		vrLoc = 132;
+	};
+	BA1F0057131867AA00FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 33";
+		rLen = 0;
+		rLoc = 725;
+		rType = 0;
+		vrLen = 1396;
+		vrLoc = 132;
 	};
 	BA1FF2C413132EDA00FE656A /* Earth */ = {
 		isa = PBXExecutable;
@@ -489,9 +926,9 @@
 	};
 	BA1FF2DC131333B200FE656A /* EarthRenderer.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1141, 4446}}";
-			sepNavSelRange = "{8691, 0}";
-			sepNavVisRange = "{8208, 1455}";
+			sepNavIntBoundsRect = "{{0, 0}, {1141, 4602}}";
+			sepNavSelRange = "{8819, 0}";
+			sepNavVisRange = "{8177, 1487}";
 		};
 	};
 	BA1FF4891313AAF100FE656A /* PBXTextBookmark */ = {
@@ -1569,7 +2006,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 25";
 		rLen = 0;
-		rLoc = 1183;
+		rLoc = 1179;
 		rType = 0;
 		vrLen = 1021;
 		vrLoc = 0;
@@ -1579,7 +2016,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 28";
 		rLen = 0;
-		rLoc = 1368;
+		rLoc = 1364;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 0;
@@ -1589,7 +2026,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 25";
 		rLen = 0;
-		rLoc = 1183;
+		rLoc = 1179;
 		rType = 0;
 		vrLen = 1001;
 		vrLoc = 0;
@@ -1599,7 +2036,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 25";
 		rLen = 0;
-		rLoc = 1182;
+		rLoc = 1178;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 0;
@@ -1609,7 +2046,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 24";
 		rLen = 0;
-		rLoc = 1108;
+		rLoc = 1104;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 0;
@@ -1619,7 +2056,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 25";
 		rLen = 0;
-		rLoc = 1182;
+		rLoc = 1178;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 0;
@@ -1801,7 +2238,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 33";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 1494;
 		vrLoc = 31;
@@ -1811,7 +2248,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 33";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 28;
@@ -1911,7 +2348,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 33";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 28;
@@ -2011,7 +2448,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 33";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 28;
@@ -2181,7 +2618,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 33";
 		rLen = 0;
-		rLoc = 724;
+		rLoc = 725;
 		rType = 0;
 		vrLen = 1407;
 		vrLoc = 28;
@@ -2211,7 +2648,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 33";
 		rLen = 0;
-		rLoc = 797;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1434;
 		vrLoc = 71;
@@ -2221,7 +2658,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 32";
 		rLen = 0;
-		rLoc = 724;
+		rLoc = 725;
 		rType = 0;
 		vrLen = 1434;
 		vrLoc = 71;
@@ -2231,7 +2668,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 37";
 		rLen = 0;
-		rLoc = 911;
+		rLoc = 907;
 		rType = 0;
 		vrLen = 1344;
 		vrLoc = 28;
@@ -2271,7 +2708,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 37";
 		rLen = 0;
-		rLoc = 911;
+		rLoc = 907;
 		rType = 0;
 		vrLen = 1418;
 		vrLoc = 18;
@@ -2411,7 +2848,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 32";
 		rLen = 0;
-		rLoc = 724;
+		rLoc = 725;
 		rType = 0;
 		vrLen = 1396;
 		vrLoc = 71;
@@ -2421,7 +2858,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 33";
 		rLen = 0;
-		rLoc = 762;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 1373;
 		vrLoc = 129;
@@ -2431,7 +2868,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 32";
 		rLen = 0;
-		rLoc = 724;
+		rLoc = 725;
 		rType = 0;
 		vrLen = 1373;
 		vrLoc = 129;
@@ -2441,7 +2878,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 32";
 		rLen = 0;
-		rLoc = 724;
+		rLoc = 725;
 		rType = 0;
 		vrLen = 1373;
 		vrLoc = 129;
@@ -2537,7 +2974,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 33";
 		rLen = 0;
-		rLoc = 797;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1375;
 		vrLoc = 129;
@@ -2673,7 +3110,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 32";
 		rLen = 0;
-		rLoc = 724;
+		rLoc = 725;
 		rType = 0;
 		vrLen = 1373;
 		vrLoc = 129;
@@ -3042,7 +3479,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 33";
 		rLen = 0;
-		rLoc = 724;
+		rLoc = 725;
 		rType = 0;
 		vrLen = 1415;
 		vrLoc = 71;
@@ -3052,7 +3489,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 34";
 		rLen = 0;
-		rLoc = 796;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 1421;
 		vrLoc = 71;
@@ -3062,7 +3499,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 34";
 		rLen = 0;
-		rLoc = 796;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 1422;
 		vrLoc = 71;
@@ -3072,7 +3509,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 34";
 		rLen = 0;
-		rLoc = 796;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 1421;
 		vrLoc = 71;
@@ -3082,7 +3519,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 34";
 		rLen = 0;
-		rLoc = 796;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 71;
@@ -3374,7 +3811,7 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 48";
 		rLen = 0;
-		rLoc = 1368;
+		rLoc = 1364;
 		rType = 0;
 		vrLen = 1422;
 		vrLoc = 132;
@@ -3384,9 +3821,59 @@
 		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
 		name = "Earth.frag: 47";
 		rLen = 0;
-		rLoc = 1368;
+		rLoc = 1364;
 		rType = 0;
 		vrLen = 1402;
+		vrLoc = 132;
+	};
+	BA1FFFF313185D5000FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 23";
+		rLen = 0;
+		rLoc = 416;
+		rType = 0;
+		vrLen = 1403;
+		vrLoc = 132;
+	};
+	BA1FFFF613185D6900FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 33";
+		rLen = 0;
+		rLoc = 725;
+		rType = 0;
+		vrLen = 1404;
+		vrLoc = 132;
+	};
+	BA1FFFF913185D7400FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 33";
+		rLen = 0;
+		rLoc = 725;
+		rType = 0;
+		vrLen = 1403;
+		vrLoc = 132;
+	};
+	BA1FFFFC13185D8600FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 33";
+		rLen = 0;
+		rLoc = 725;
+		rType = 0;
+		vrLen = 1403;
+		vrLoc = 132;
+	};
+	BA1FFFFF13185D9600FE656A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Earth.frag */;
+		name = "Earth.frag: 34";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 1403;
 		vrLoc = 132;
 	};
 }

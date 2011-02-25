@@ -19,6 +19,7 @@
 		28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		BA1F00271318628900FE656A /* EarthAtmos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1F00261318628900FE656A /* EarthAtmos.jpg */; };
 		BA1FF2DD131333B200FE656A /* EarthRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA1FF2DC131333B200FE656A /* EarthRenderer.mm */; };
 		BA1FF64D13149BCD00FE656A /* CS123Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA1FF64813149BCC00FE656A /* CS123Matrix.cpp */; };
 		BA1FF64E13149BCD00FE656A /* CS123Matrix.inl in Resources */ = {isa = PBXBuildFile; fileRef = BA1FF64A13149BCC00FE656A /* CS123Matrix.inl */; };
@@ -61,6 +62,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Earth_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Earth_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Earth-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Earth-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BA1F00261318628900FE656A /* EarthAtmos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EarthAtmos.jpg; sourceTree = "<group>"; };
 		BA1FF2DB131333B200FE656A /* EarthRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthRenderer.h; sourceTree = "<group>"; };
 		BA1FF2DC131333B200FE656A /* EarthRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EarthRenderer.mm; sourceTree = "<group>"; };
 		BA1FF64713149BCC00FE656A /* CS123Algebra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CS123Algebra.h; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BA1F00261318628900FE656A /* EarthAtmos.jpg */,
 				BA1FFF551317A0A300FE656A /* earthNormalMap.png */,
 				BA1FFCC11315FF6B00FE656A /* sunmap.jpg */,
 				BA1FFC3D1315ED9700FE656A /* Earthbumpmap.jpg */,
@@ -301,6 +304,7 @@
 				BA1FFC3E1315ED9700FE656A /* Earthbumpmap.jpg in Resources */,
 				BA1FFCC21315FF6B00FE656A /* sunmap.jpg in Resources */,
 				BA1FFF561317A0A300FE656A /* earthNormalMap.png in Resources */,
+				BA1F00271318628900FE656A /* EarthAtmos.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

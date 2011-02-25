@@ -281,7 +281,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 104}, {216, 725}}</string>
+							<string>{{0, 42}, {216, 725}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -330,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BA1FFFED1317AA2900FE656A</string>
+										<string>BA1F0057131867AA00FE656A</string>
 										<key>history</key>
 										<array>
 											<string>BA1FF4891313AAF100FE656A</string>
@@ -364,24 +364,25 @@
 											<string>BA1FFE9A1317714A00FE656A</string>
 											<string>BA1FFEED131792A400FE656A</string>
 											<string>BA1FFF4513179DA900FE656A</string>
-											<string>BA1FFF6E1317A14D00FE656A</string>
 											<string>BA1FFFDC1317AA2900FE656A</string>
 											<string>BA1FFFDD1317AA2900FE656A</string>
 											<string>BA1FFFDE1317AA2900FE656A</string>
 											<string>BA1FFFDF1317AA2900FE656A</string>
 											<string>BA1FFFE01317AA2900FE656A</string>
 											<string>BA1FFFE11317AA2900FE656A</string>
-											<string>BA1FFFE21317AA2900FE656A</string>
 											<string>BA1FFFE31317AA2900FE656A</string>
-											<string>BA1FFFE41317AA2900FE656A</string>
 											<string>BA1FFFE51317AA2900FE656A</string>
 											<string>BA1FFFE61317AA2900FE656A</string>
 											<string>BA1FFFE71317AA2900FE656A</string>
 											<string>BA1FFFE81317AA2900FE656A</string>
-											<string>BA1FFFE91317AA2900FE656A</string>
 											<string>BA1FFFEA1317AA2900FE656A</string>
 											<string>BA1FFFEB1317AA2900FE656A</string>
-											<string>BA1FFFEC1317AA2900FE656A</string>
+											<string>BA1F00231318621400FE656A</string>
+											<string>BA1F00331318632D00FE656A</string>
+											<string>BA1F0053131867AA00FE656A</string>
+											<string>BA1F0054131867AA00FE656A</string>
+											<string>BA1F0055131867AA00FE656A</string>
+											<string>BA1F0056131867AA00FE656A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -579,7 +580,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BA1FFFEE1317AA2900FE656A</string>
 		<string>BA1FFDD51316D02900FE656A</string>
 		<string>BA1FFDD61316D02900FE656A</string>
 		<string>1CD10A99069EF8BA00B06720</string>

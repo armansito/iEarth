@@ -30,8 +30,8 @@ void main (void)
     mediump vec3 r = d * normal;
 	r = lightPos - r;
     mediump float spec = clamp(dot(r, viewVec), 0.0, 1.0);
-    spec            = pow(spec, 6.0);
-    Specular        = vec3 (spec) * vec3 (1.0, 0.941, 0.898) * 0.73;
+    spec            = pow(spec, 10.0);
+    Specular        = vec3 (spec) * vec3 (0.8, 0.9, 1.0) * 0.6;
 
     Diffuse         = max(dot(lightPos, normal), 0.0);
 	
