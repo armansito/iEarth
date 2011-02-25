@@ -9,13 +9,32 @@
 uniform sampler2D EarthDay;
 uniform sampler2D EarthNight;
 uniform sampler2D EarthCloudGloss;
+uniform sampler2D BumpMap;
 
-varying mediump float Diffuse;
-varying mediump vec3  Specular;
-varying mediump vec2  TexCoord;
+varying mediump vec3 lightPos;
+varying mediump vec3 viewVec;
+
+varying mediump vec2 TexCoord;
 
 void main (void)
 {
+
+	mediump float Diffuse;
+	mediump vec3  Specular;
+	
+	mediump vec3 normal = texture2D(BumpMap, TexCoord).xyz;
+	normal = (normal - 0.5) * 2.0;
+	normal.y = -normal.y;
+
+	mediump float d = 2.0 * dot(lightPos, normal);
+    mediump vec3 r = d * normal;
+	r = lightPos - r;
+    mediump float spec = clamp(dot(r, viewVec), 0.0, 1.0);
+    spec            = pow(spec, 6.0);
+    Specular        = vec3 (spec) * vec3 (1.0, 0.941, 0.898) * 0.73;
+
+    Diffuse         = max(dot(lightPos, normal), 0.0);
+	
     // Monochrome cloud cover value will be in clouds.r
     // Gloss value will be in clouds.g
     // clouds.b will be unused

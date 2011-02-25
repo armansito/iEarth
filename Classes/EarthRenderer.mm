@@ -11,7 +11,7 @@
 #include "OrbitingCamera.h"
 #import "GLESFileLoader.h"
 
-#define RES 70
+#define RES 50
 #define SUN_DISTANCE 20000.f
 #define MOON_DISTANCE 60.f
 
@@ -37,13 +37,15 @@
 	if (self = [super init]) {
 		vertices = (GLfloat *)malloc(RES*RES*6*3*sizeof(GLfloat));
 		tex_coords = (GLfloat *)malloc(RES*RES*6*2*sizeof(GLfloat));
+		tangents = (GLfloat *)malloc(RES*RES*6*3*sizeof(GLfloat));
 		GLfloat lat,lon;
 		GLfloat lat_incr = M_PI/RES;
 		GLfloat lon_incr = 2*lat_incr;
-		REAL u, v;
+		REAL u, v, tanlon;
 		lon = 0;
 		int index = -1;
 		int tindex = -1;
+		int tanindex = -1;
 		for (int i = 0; i < RES; i++) {
 			lat = 0;
 			for (int j = 0; j < RES; j++) {
@@ -59,6 +61,12 @@
 				tex_coords[++tindex] = 1.f-u;
 				tex_coords[++tindex] = 1.f-v;
 				
+				tanlon = lon + M_PI_2;
+				
+				tangents[++tanindex] = cos(tanlon);
+				tangents[++tanindex] = 0.0;
+				tangents[++tanindex] = sin(tanlon);
+				
 				// V2			
 				vertices[++index] = sin(lat+lat_incr)*cos(lon+lon_incr);
 				vertices[++index] = cos(lat+lat_incr);
@@ -71,6 +79,12 @@
 				tex_coords[++tindex] = 1.f-u;
 				tex_coords[++tindex] = 1.f-v;
 				
+				tanlon = lon + lon_incr + M_PI_2;
+				
+				tangents[++tanindex] = cos(tanlon);
+				tangents[++tanindex] = 0.0;
+				tangents[++tanindex] = sin(tanlon);
+				
 				// V3
 				vertices[++index] = sin(lat+lat_incr)*cos(lon);
 				vertices[++index] = cos(lat+lat_incr);
@@ -82,6 +96,12 @@
 				
 				tex_coords[++tindex] = 1.f-u;
 				tex_coords[++tindex] = 1.f-v;
+				
+				tanlon = lon + M_PI_2;
+				
+				tangents[++tanindex] = cos(tanlon);
+				tangents[++tanindex] = 0.0;
+				tangents[++tanindex] = sin(tanlon);
 				
 			
 				// V4			
@@ -96,6 +116,12 @@
 				tex_coords[++tindex] = 1.f-u;
 				tex_coords[++tindex] = 1.f-v;
 				
+				tanlon = lon + lon_incr + M_PI_2;
+				
+				tangents[++tanindex] = cos(tanlon);
+				tangents[++tanindex] = 0.0;
+				tangents[++tanindex] = sin(tanlon);
+				
 				// V5				
 				vertices[++index] = sin(lat)*cos(lon);
 				vertices[++index] = cos(lat);
@@ -107,6 +133,12 @@
 				
 				tex_coords[++tindex] = 1.f-u;
 				tex_coords[++tindex] = 1.f-v;
+				
+				tanlon = lon + M_PI_2;
+				
+				tangents[++tanindex] = cos(tanlon);
+				tangents[++tanindex] = 0.0;
+				tangents[++tanindex] = sin(tanlon);
 			
 				// V6				
 				vertices[++index] = sin(lat)*cos(lon+lon_incr);
@@ -120,11 +152,23 @@
 				tex_coords[++tindex] = 1.f-u;
 				tex_coords[++tindex] = 1.f-v;
 				
+				tanlon = lon + lon_incr + M_PI_2;
+				
+				tangents[++tanindex] = cos(tanlon);
+				tangents[++tanindex] = 0.0;
+				tangents[++tanindex] = sin(tanlon);
 
 				lat += lat_incr;
 			}
 			lon += lon_incr;
 		}
+		
+		glEnable(GL_TEXTURE_2D);
+		
+		[self loadTextures];
+		
+		glEnable(GL_CULL_FACE);
+		glEnable(GL_DEPTH_TEST);
 		
 		program = [GLESFileLoader loadShaderNamed:@"Earth"];
 		moon_program = [GLESFileLoader loadShaderNamed:@"Moon"];
@@ -133,15 +177,9 @@
 		mv_loc = glGetUniformLocation(program, "mv");
 		proj_loc = glGetUniformLocation(program, "proj");
 		tex_index = glGetAttribLocation(program, "TextureCoord");
-		glBindAttribLocation(program, 4, "Tangent");
-		
-		glEnable(GL_TEXTURE_2D);
-		glEnable(GL_CULL_FACE);
-		glEnable(GL_DEPTH_TEST);
 		
 		m_camera = new OrbitingCamera();
 		[self updateMatrices];
-		[self loadTextures];
 		track_moon = NO;
 		speed_factor = 1.f;
 		distance_factor = 1.f;
@@ -282,6 +320,8 @@
 	glEnableVertexAttribArray(0);
 	glVertexAttribPointer(tex_index, 2, GL_FLOAT, GL_FALSE, 0, tex_coords);
 	glEnableVertexAttribArray(tex_index);
+	glVertexAttribPointer(glGetAttribLocation(program, "Tangent"), 3, GL_FLOAT, GL_FALSE, 0, tangents);
+	glEnableVertexAttribArray(glGetAttribLocation(program, "Tangent"));
 	glDrawArrays(GL_TRIANGLES, 0, 6*RES*RES);	
 	
 	glUseProgram(0); 
@@ -289,11 +329,12 @@
 
 - (void)loadTextures
 {
+	moon_texture = [GLESFileLoader loadTextureNamed:@"Moontexture.jpg"]; // TODO: The call fails at first call :S
+	moon_texture = [GLESFileLoader loadTextureNamed:@"Moontexture.jpg"];
 	day_texture = [GLESFileLoader loadTextureNamed:@"DayHigh.jpg"];
 	night_texture = [GLESFileLoader loadTextureNamed:@"Night.jpg"];
 	clouds_texture = [GLESFileLoader loadTextureNamed:@"Clouds.jpg"];
-	moon_texture = [GLESFileLoader loadTextureNamed:@"Moontexture.jpg"];
-	earth_bumpmap = [GLESFileLoader loadTextureNamed:@"Earthbumpmap.jpg"];
+	earth_bumpmap = [GLESFileLoader loadTextureNamed:@"earthNormalMap.png"];
 	sun_texture = [GLESFileLoader loadTextureNamed:@"sunmap.jpg"];
 }
 
@@ -321,6 +362,7 @@
 	delete m_camera;
 	free(tex_coords);
 	free(vertices);
+	free(tangents);
 	[super dealloc];
 }
 

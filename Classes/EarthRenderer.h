@@ -24,6 +24,7 @@ typedef struct OrbitingCamera OrbitingCamera;
 	GLuint day_texture, night_texture, clouds_texture, moon_texture, sun_texture, earth_bumpmap;
 	GLfloat *vertices; // holds both vertices and normals
 	GLfloat *tex_coords;
+	GLfloat *tangents;
 	OrbitingCamera *m_camera;
 	
 	BOOL track_moon;

@@ -14,11 +14,10 @@
 + (GLuint)loadTextureNamed:(NSString *)name
 {
 	UIImage *image = [UIImage imageNamed:name];
-	if (image == nil) 
+	if (image == nil) {
+		NSLog(@"Could not find %@ in application bundle.", name);
 		return 0;
-	
-    if (image == nil)
-        NSLog(@"Do real error checking here");
+	}
 	
     GLuint width = CGImageGetWidth(image.CGImage);
     GLuint height = CGImageGetHeight(image.CGImage);
@@ -40,6 +39,12 @@
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, imageData);
 	
     CGContextRelease(context);
+	
+	GLenum err = glGetError();
+	if (err != GL_NO_ERROR) {
+		NSLog(@"Error while loading image %@ with error no %u",name,err);
+		glDeleteTextures(1, &tex);
+	}
 	
     free(imageData);
     [image release];
@@ -140,6 +145,8 @@
     // Bind attribute locations.
     // This needs to be done prior to linking.
     glBindAttribLocation(program, 0, "position");
+	glBindAttribLocation(program, 1, "TextureCoord");
+	glBindAttribLocation(program, 2, "Tangent");
     
     // Link program.
     if (![self linkProgram:program])

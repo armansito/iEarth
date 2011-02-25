@@ -31,16 +31,15 @@
 		BA1FF8731314DA2D00FE656A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1FF8721314DA2D00FE656A /* CoreGraphics.framework */; };
 		BA1FF9C613156D5100FE656A /* GLESFileLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1FF9C513156D5100FE656A /* GLESFileLoader.m */; };
 		BA1FFA5513158E6500FE656A /* DayHigh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFA5413158E6500FE656A /* DayHigh.jpg */; };
-		BA1FFA711315901600FE656A /* Earthbump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFA701315901600FE656A /* Earthbump.jpg */; };
 		BA1FFAC91315B47300FE656A /* Moon.vert in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFABD1315B46300FE656A /* Moon.vert */; };
 		BA1FFACA1315B47300FE656A /* Moon.frag in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFABF1315B46C00FE656A /* Moon.frag */; };
-		BA1FFAD41315B75200FE656A /* Moonbump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFAD21315B75200FE656A /* Moonbump.jpg */; };
 		BA1FFAD51315B75200FE656A /* Moontexture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFAD31315B75200FE656A /* Moontexture.jpg */; };
 		BA1FFC3E1315ED9700FE656A /* Earthbumpmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFC3D1315ED9700FE656A /* Earthbumpmap.jpg */; };
 		BA1FFCA31315F93100FE656A /* Sun.vert in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFC9F1315F91D00FE656A /* Sun.vert */; };
 		BA1FFCA41315F93100FE656A /* Sun.frag in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFCA11315F92500FE656A /* Sun.frag */; };
 		BA1FFCC21315FF6B00FE656A /* sunmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFCC11315FF6B00FE656A /* sunmap.jpg */; };
 		BA1FFDDD1316E4AF00FE656A /* CelestialBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA1FFDDC1316E4AF00FE656A /* CelestialBody.cpp */; };
+		BA1FFF561317A0A300FE656A /* earthNormalMap.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFF551317A0A300FE656A /* earthNormalMap.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,10 +80,8 @@
 		BA1FF9C413156D5100FE656A /* GLESFileLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESFileLoader.h; sourceTree = "<group>"; };
 		BA1FF9C513156D5100FE656A /* GLESFileLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESFileLoader.m; sourceTree = "<group>"; };
 		BA1FFA5413158E6500FE656A /* DayHigh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DayHigh.jpg; sourceTree = "<group>"; };
-		BA1FFA701315901600FE656A /* Earthbump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earthbump.jpg; sourceTree = "<group>"; };
 		BA1FFABD1315B46300FE656A /* Moon.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Moon.vert; sourceTree = "<group>"; };
 		BA1FFABF1315B46C00FE656A /* Moon.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Moon.frag; sourceTree = "<group>"; };
-		BA1FFAD21315B75200FE656A /* Moonbump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Moonbump.jpg; sourceTree = "<group>"; };
 		BA1FFAD31315B75200FE656A /* Moontexture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Moontexture.jpg; sourceTree = "<group>"; };
 		BA1FFC3D1315ED9700FE656A /* Earthbumpmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earthbumpmap.jpg; sourceTree = "<group>"; };
 		BA1FFC9F1315F91D00FE656A /* Sun.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Sun.vert; sourceTree = "<group>"; };
@@ -92,6 +89,7 @@
 		BA1FFCC11315FF6B00FE656A /* sunmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunmap.jpg; sourceTree = "<group>"; };
 		BA1FFDDB1316E48900FE656A /* CelestialBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelestialBody.h; sourceTree = "<group>"; };
 		BA1FFDDC1316E4AF00FE656A /* CelestialBody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CelestialBody.cpp; sourceTree = "<group>"; };
+		BA1FFF551317A0A300FE656A /* earthNormalMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthNormalMap.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,11 +173,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BA1FFF551317A0A300FE656A /* earthNormalMap.png */,
 				BA1FFCC11315FF6B00FE656A /* sunmap.jpg */,
 				BA1FFC3D1315ED9700FE656A /* Earthbumpmap.jpg */,
-				BA1FFAD21315B75200FE656A /* Moonbump.jpg */,
 				BA1FFAD31315B75200FE656A /* Moontexture.jpg */,
-				BA1FFA701315901600FE656A /* Earthbump.jpg */,
 				BA1FFA5413158E6500FE656A /* DayHigh.jpg */,
 				BA1FF83C1314D5D400FE656A /* Clouds.jpg */,
 				BA1FF83D1314D5D400FE656A /* Day.jpg */,
@@ -300,11 +297,10 @@
 				BA1FF8401314D5D400FE656A /* Day.jpg in Resources */,
 				BA1FF8411314D5D400FE656A /* Night.jpg in Resources */,
 				BA1FFA5513158E6500FE656A /* DayHigh.jpg in Resources */,
-				BA1FFA711315901600FE656A /* Earthbump.jpg in Resources */,
-				BA1FFAD41315B75200FE656A /* Moonbump.jpg in Resources */,
 				BA1FFAD51315B75200FE656A /* Moontexture.jpg in Resources */,
 				BA1FFC3E1315ED9700FE656A /* Earthbumpmap.jpg in Resources */,
 				BA1FFCC21315FF6B00FE656A /* sunmap.jpg in Resources */,
+				BA1FFF561317A0A300FE656A /* earthNormalMap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

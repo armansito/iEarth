@@ -8,6 +8,7 @@
 
 attribute vec4 position;
 attribute vec2 TextureCoord;
+attribute vec3 Tangent;
 
 uniform mat4 mv;
 uniform mat4 proj;

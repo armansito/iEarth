@@ -10,15 +10,14 @@ attribute vec4 position;
 attribute vec3 Tangent;
 attribute vec2 TextureCoord;
 
-uniform sampler2D BumpMap;
-
 uniform mat4 mv;
 uniform mat4 proj;
 uniform float rot;
 
-varying float Diffuse;
-varying vec3  Specular;
 varying vec2 TexCoord;
+
+varying vec3 lightPos;
+varying vec3 viewVec;
 
 uniform vec3 LightPosition;
 
@@ -30,21 +29,27 @@ void main()
 					0,1,0,0,
 				   -s,0,c,0,
 				    0,0,0,1);
-	vec4 normal = vec4(position.xyz, 0.0);				
-	vec4 pos = (mv * (ctm * position));
-	vec3 ecPosition = pos.xyz;
-    vec3 tnorm      = (mv * ctm * normal).xyz;
-	vec3 light = (mv * vec4(LightPosition, 1.0)).xyz;
-    vec3 lightVec   = normalize(light - ecPosition);
-    vec3 reflectVec = reflect(-lightVec, tnorm);
-    vec3 viewVec    = normalize(-ecPosition);
-
-    float spec      = clamp(dot(reflectVec, viewVec), 0.0, 1.0);
-    spec            = pow(spec, 8.0);
-    Specular        = vec3 (spec) * vec3 (1.0, 0.941, 0.898);
-
-    Diffuse         = max(dot(lightVec, tnorm), 0.0);
 	
 	TexCoord = TextureCoord;
+	vec4 pos = mv * ctm * position;
+	vec4 normal = normalize(mv * ctm * vec4(position.xyz, 0.0));
+	
+	// get tangent vectors
+	vec3 n = normal.xyz;
+	vec3 t = normalize((mv * ctm * vec4(normalize(-Tangent),0.0)).xyz);
+	vec3 b = normalize(cross(n,t));
+
+    vec3 light = (mv * vec4(LightPosition, 1.0)).xyz;
+	vec3 v;
+	v.x = dot(light, t);
+	v.y = dot(light, b);
+	v.z = dot(light, n);
+	lightPos = normalize(v);
+	
+	v.x = dot(pos.xyz, t);
+	v.y = dot(pos.xyz, b);
+	v.z = dot(pos.xyz, n);
+	viewVec = normalize(v);
+	
 	gl_Position = proj * pos;
 }
