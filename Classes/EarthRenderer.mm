@@ -34,7 +34,7 @@
 
 - (id)init
 {
-	if (self = [super init]) {
+	if ((self = [super init])) {
 		vertices = (GLfloat *)malloc(RES*RES*6*3*sizeof(GLfloat));
 		tex_coords = (GLfloat *)malloc(RES*RES*6*2*sizeof(GLfloat));
 		tangents = (GLfloat *)malloc(RES*RES*6*3*sizeof(GLfloat));

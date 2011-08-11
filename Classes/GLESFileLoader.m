@@ -172,9 +172,6 @@
         return 0;
     }
     
-    // Get uniform locations.
-	// uniforms[UNIFORM_TRANSLATE] = glGetUniformLocation(program, "translate");
-    
     // Release vertex and fragment shaders.
     if (vert)
         glDeleteShader(vert);

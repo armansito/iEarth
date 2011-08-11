@@ -171,9 +171,9 @@ enum {
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
 	if (interfaceOrientation == UIInterfaceOrientationPortrait || interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown) {
-		earthRenderer.camera->setSize(self.view.frame.size.width, self.view.frame.size.height);
+		if (earthRenderer.camera) earthRenderer.camera->setSize(self.view.frame.size.width, self.view.frame.size.height);
 	} else {
-		earthRenderer.camera->setSize(self.view.frame.size.height, self.view.frame.size.width);
+        if (earthRenderer.camera) earthRenderer.camera->setSize(self.view.frame.size.height, self.view.frame.size.width);
 	}
 	[earthRenderer updateMatrices];
 

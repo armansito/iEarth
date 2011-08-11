@@ -24,7 +24,6 @@ void main (void)
 	
 	mediump vec3 normal = texture2D(BumpMap, TexCoord).xyz;
 	normal = (normal - 0.5) * 2.0;
-	normal.y = -normal.y;
 
 	mediump float d = 2.0 * dot(lightPos, normal);
     mediump vec3 r = d * normal;

@@ -41,6 +41,7 @@
 		BA1FFCC21315FF6B00FE656A /* sunmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFCC11315FF6B00FE656A /* sunmap.jpg */; };
 		BA1FFDDD1316E4AF00FE656A /* CelestialBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA1FFDDC1316E4AF00FE656A /* CelestialBody.cpp */; };
 		BA1FFF561317A0A300FE656A /* earthNormalMap.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1FFF551317A0A300FE656A /* earthNormalMap.png */; };
+		BAFEC42B13F3A7B700CE13CC /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFEC42A13F3A7B700CE13CC /* MainWindow-iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,7 @@
 		BA1FFDDB1316E48900FE656A /* CelestialBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelestialBody.h; sourceTree = "<group>"; };
 		BA1FFDDC1316E4AF00FE656A /* CelestialBody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CelestialBody.cpp; sourceTree = "<group>"; };
 		BA1FFF551317A0A300FE656A /* earthNormalMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthNormalMap.png; sourceTree = "<group>"; };
+		BAFEC42A13F3A7B700CE13CC /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				2514C27610084DB600A42282 /* Shaders */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				BAFEC42913F3A7B300CE13CC /* iPad */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -237,6 +240,14 @@
 			path = celestialbody;
 			sourceTree = "<group>";
 		};
+		BAFEC42913F3A7B300CE13CC /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BAFEC42A13F3A7B700CE13CC /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -305,6 +316,7 @@
 				BA1FFCC21315FF6B00FE656A /* sunmap.jpg in Resources */,
 				BA1FFF561317A0A300FE656A /* earthNormalMap.png in Resources */,
 				BA1F00271318628900FE656A /* EarthAtmos.jpg in Resources */,
+				BAFEC42B13F3A7B700CE13CC /* MainWindow-iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +354,9 @@
 				GCC_PREFIX_HEADER = Earth_Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "Earth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = Earth;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -355,7 +369,9 @@
 				GCC_PREFIX_HEADER = Earth_Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "Earth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = Earth;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
