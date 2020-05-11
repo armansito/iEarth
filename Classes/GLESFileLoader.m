@@ -19,8 +19,8 @@
 		return 0;
 	}
 	
-    GLuint width = CGImageGetWidth(image.CGImage);
-    GLuint height = CGImageGetHeight(image.CGImage);
+    GLuint width = (GLuint)CGImageGetWidth(image.CGImage);
+    GLuint height = (GLuint)CGImageGetHeight(image.CGImage);
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
     void *imageData = malloc( height * width * 4 );
     CGContextRef context = CGBitmapContextCreate( imageData, width, height, 8, 4 * width, colorSpace, kCGImageAlphaPremultipliedLast | kCGBitmapByteOrder32Big );
@@ -47,7 +47,6 @@
 	}
 	
     free(imageData);
-    [image release];
 	return tex;
 }
 
@@ -108,9 +107,12 @@
 #endif
     
     glGetProgramiv(prog, GL_LINK_STATUS, &status);
-    if (status == 0)
+    if (status == 0) {
+        NSLog(@"Failed to link shader program");
         return FALSE;
-    
+    }
+
+    NSLog(@"Program linked successfully");
     return TRUE;
 }
 
@@ -146,7 +148,10 @@
     // This needs to be done prior to linking.
     glBindAttribLocation(program, 0, "position");
 	glBindAttribLocation(program, 1, "TextureCoord");
-	glBindAttribLocation(program, 2, "Tangent");
+
+    if ([name isEqualToString:@"Earth"]) {
+        glBindAttribLocation(program, 2, "Tangent");
+    }
     
     // Link program.
     if (![self linkProgram:program])

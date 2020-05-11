@@ -209,6 +209,12 @@
 	track_moon = track;
 }
 
+- (void)resizeWidth:(CGFloat)w Height:(CGFloat)h
+{
+    m_camera->setSize(w, h);
+    [self updateMatrices];
+}
+
 - (void)dragX:(CGFloat)x Y:(CGFloat)y
 {
 	m_camera->mouse_dragged(x,y);

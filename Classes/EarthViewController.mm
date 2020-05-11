@@ -37,6 +37,7 @@ enum {
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     EAGLContext *aContext = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
     
     if (!aContext)
@@ -84,7 +85,12 @@ enum {
 - (void)viewWillAppear:(BOOL)animated
 {
     [self startAnimation];
-	NSLog(@"%f, %f", self.view.frame.size.width, self.view.frame.size.height);
+    CGFloat width = self.view.frame.size.width;
+    CGFloat height = self.view.frame.size.height;
+    NSLog(@"%f, %f", width, height);
+    if (earthRenderer.camera) {
+        [earthRenderer resizeWidth:width Height:height];
+    }
     [super viewWillAppear:animated];
 }
 

@@ -15,6 +15,7 @@
 #include "CS123Matrix.h"
 #include <ostream>
 #include <limits>
+#include <cmath>
 
 #define CS123_VECTOR_NO_ELEMENTS    (N)
 #define CS123_VECTOR_SIZE           (sizeof(T) * CS123_VECTOR_NO_ELEMENTS)

@@ -46,6 +46,7 @@ typedef struct OrbitingCamera OrbitingCamera;
 
 - (void)trackMoon:(BOOL)track;
 
+- (void)resizeWidth:(CGFloat)w Height:(CGFloat)h;
 - (void)dragX:(CGFloat)x Y:(CGFloat)y;
 - (void)zoom:(CGFloat)delta;
 
